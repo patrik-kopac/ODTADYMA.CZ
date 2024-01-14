@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 
 
-/* ---------------------------FONT-----------------------------*/
+/* ------------------------FONTS,ICONS ------------------------*/
 @import url(https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium);
 
 @font-face {
@@ -20,7 +21,6 @@
 }
 
 
-
 /* ---------------------------SHARED-----------------------------*/
 * {
     font-family: "Margon 360 W08 Medium";
@@ -29,18 +29,126 @@
 
 
 /* ---------------------------HEADER-----------------------------*/
+.header {
+    background-color: #ffffff;
+    
+    height: 133px;
+    padding: 10px 0;
+    border-bottom: 2px solid #377723;
+
+    position: sticky;
+    left: 0;
+    top: 0;
+
+    z-index: 999;
+}
+
+.header-container {
+    width: 95vw;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /*-------------------logo-----------------*/
+.logo img {
+    width: 30vw;
+}
+
+/*-------------------nav-container-----------------*/
+.nav-container {
+    width: 60vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 /*--------------header-contacts-------------*/
+.header-contacts {
+    text-align: right;
+}
+
+
+.header-contacts li {
+    list-style: none;
+    background-color: #483E86;
+
+    display: inline-block;
+
+    margin-right: 1%;
+    padding: 7px 10px;
+    border-radius: 50%;
+}
+
+.header-contacts a {
+    color: rgb(255, 255, 255);
+}
+
+
 
 /*-----------------nav----------------*/
+.header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header nav li {
+    list-style: none;
+    font-size: 1.2rem;
+    background-color: #377723;
+
+    display: inline-block;
+
+    margin-right: 0.5%;
+    padding: 0.5%;
+}
+
+.header nav li:last-of-type {
+    margin-right: 0;
+}
+
+.header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header nav li:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.header nav li a:hover {
+    color: #58AF46;
+}
+
+
 
 /*-------------menu-icon----------------*/
+.menu-icon {
+    display: none;
+
+    margin-right: 30px;
+}
+
+
 
 /* ---------------------------MAIN-----------------------------*/
 
 /*----------------welcome--------------*/
+
+#welcome {
+    background-image: url(/assets/shop/1643640044768.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.499);
+    background-blend-mode: multiply;
+
+    height: calc(100vh - 70px);
+}
 
 /*----------------about-us--------------*/
 
