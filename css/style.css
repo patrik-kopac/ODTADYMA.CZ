@@ -148,6 +148,23 @@
     background-blend-mode: multiply;
 
     height: calc(100vh - 70px);
+
+    margin-bottom: 3%;
+
+    position: relative;
+}
+
+#welcome h2 {
+    padding: 33vh 2% 0 2%;
+    margin-bottom: 0rem;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+#welcome h3 {
+    text-align: center;
+    font-size: 3rem;
+    color: #ffffff;
 }
 
 /*----------------about-us--------------*/
