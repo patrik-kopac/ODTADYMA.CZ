@@ -5,15 +5,27 @@
     box-sizing: border-box;
 }
 
-/* ---------------------------SHARED-----------------------------*/
-* {
-   font-family: "mignonregular";
+
+/* ---------------------------FONT-----------------------------*/
+@import url(https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium);
+
+@font-face {
+    font-family: "Margon 360 W08 Medium";
+    src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot");
+    src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.svg#Margon 360 W08 Medium")format("svg");
 }
 
-/* h2,
-h3 {
-    font-weight: 700;
-} */
+
+
+/* ---------------------------SHARED-----------------------------*/
+* {
+    font-family: "Margon 360 W08 Medium";
+}
+
 
 
 /* ---------------------------HEADER-----------------------------*/
