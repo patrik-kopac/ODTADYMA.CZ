@@ -26,17 +26,21 @@
     font-family: "Margon 360 W08 Medium";
 }
 
-
+:root h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: 5%;
+}
 
 /* ---------------------------HEADER-----------------------------*/
 .header {
-    background-color: #ffffff;
+    background-color: #3e6f2fbd;
     
-    height: 133px;
-    padding: 10px 0;
-    border-bottom: 2px solid #377723;
+    width: 100vw;
+    height: 180px;
 
-    position: sticky;
+    position: fixed;
     left: 0;
     top: 0;
 
@@ -52,12 +56,12 @@
 }
 
 
-/*-------------------logo-----------------*/
+/*-------------------------logo---------------------------*/
 .logo img {
     width: 30vw;
 }
 
-/*-------------------nav-container-----------------*/
+/*----------------------nav-container----------------------*/
 .nav-container {
     width: 60vw;
 
@@ -66,7 +70,7 @@
     justify-content: space-evenly;
 }
 
-/*--------------header-contacts-------------*/
+/*-----------------------header-contacts----------------*/
 .header-contacts {
     text-align: right;
 }
@@ -75,11 +79,12 @@
 .header-contacts li {
     list-style: none;
     background-color: #483E86;
+    font-size: 1.8rem;
 
     display: inline-block;
 
     margin-right: 1%;
-    padding: 7px 10px;
+    padding: 10px 15px;
     border-radius: 50%;
 }
 
@@ -89,7 +94,7 @@
 
 
 
-/*-----------------nav----------------*/
+/*---------------------------nav-------------------------*/
 .header nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -97,18 +102,15 @@
 
 .header nav li {
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     background-color: #377723;
 
     display: inline-block;
 
-    margin-right: 0.5%;
-    padding: 0.5%;
+    padding: 0.7% 1.2%; 
+    border-radius: 20px;
 }
 
-.header nav li:last-of-type {
-    margin-right: 0;
-}
 
 .header nav li a {
     color: #ffffff;
@@ -126,7 +128,7 @@
 
 
 
-/*-------------menu-icon----------------*/
+/*-----------------------menu-icon--------------------*/
 .menu-icon {
     display: none;
 
@@ -137,7 +139,7 @@
 
 /* ---------------------------MAIN-----------------------------*/
 
-/*----------------welcome--------------*/
+/*--------------------------welcome-----------------------------*/
 
 #welcome {
     background-image: url(/assets/shop/1643640044768.jpg);
@@ -155,26 +157,185 @@
 }
 
 #welcome h2 {
-    padding: 33vh 2% 0 2%;
-    margin-bottom: 0rem;
-    font-size: 3rem;
+    padding: 40vh 5% 0 5%;
+    margin: 0;
+
+    font-size: 5rem;
     color: #ffffff;
 }
 
 #welcome h3 {
-    text-align: center;
-    font-size: 3rem;
+    font-weight: 200;
+    font-size: 2.3rem;
     color: #ffffff;
+    
+    text-align: center;
+    padding: 1% 5%;
 }
 
-/*----------------about-us--------------*/
+/*--------------------------about-us------------------------*/
+.about-us {
+    width: 80vw;
+    margin: 0 auto;
+}
 
-/*----------------news--------------*/
+.about-us h2 {
+    color: #377723;
+}
+
+/*--------------boss-intro--------------*/
+.boss-intro {
+    padding: 3% 0 6% 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*--------------boss-text--------------*/
+.boss-text {
+    width: 60%;
+    background-color: #EEF7EC;
+
+    border-radius: 20px;
+    padding: 3%;
+}
+
+.boss-text p {
+    font-size: 1.6rem;
+}
+
+
+/*--------------boss-img--------------*/
+.boss-img {
+    width: 30%;
+}
+
+.boss-img-container img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.boss-img-container img:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.boss-img figcaption {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.boss-img span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #377723;
+}
+
+/*--------------advantages--------------*/
+.advantages {
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-auto-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "one two three"
+    "four five six"
+    "seven eight nine"
+    ;
+}
+
+.adv,
+.adv-img-container {
+    height: 25vh;
+}
+
+
+.adv {
+    border-radius: 20px;
+
+    background-image: url("/assets/shop/k.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.499);
+    background-blend-mode: multiply;
+
+    position: relative;
+}
+
+.adv p {
+    position: absolute;
+    left: 12%;
+    top: 42%;
+
+    color: #ffffff;
+    font-size: 1.7rem;
+
+    margin: 0 10%;
+}
+
+.adv1-pecivo {
+    grid-area: "one";
+}
+
+.adv2-bezobal {
+    grid-area: "two";
+}
+
+.adv3-napoje {
+    grid-area: "three";
+}
+
+.adv4-zelovoc {
+    grid-area: "four";
+}
+
+.adv-img-container {
+    grid-area: "five";
+
+    display: flex;
+    align-items: center;
+}
+
+.adv5-farmary {
+    grid-area: "six";
+}
+
+.adv6-remesla {
+    grid-area: "seven";
+}
+
+.adv7-trhy {
+    grid-area: "eight";
+}
+
+.adv8-trvanlive {
+    grid-area: "nine";
+}
+
+.adv-img-container img {
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    padding-top: 6%;
+}
+
+
+
+/*-----------------------------news-----------------------*/
 
 /* ---------------------------FOOTER-----------------------------*/
 
-/*---------------footer-contacts--------------*/
+/*------------------------footer-contacts------------------*/
 
-/*-----------------footer-shop---------------*/
+/*--------------------------footer-shop-----------------------*/
 
-/*------------------signature------------------*/
+/*------------------------signature--------------------------*/
