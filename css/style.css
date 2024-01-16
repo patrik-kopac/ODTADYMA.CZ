@@ -194,7 +194,7 @@
 
 /*--------------boss-text--------------*/
 .boss-text {
-    width: 60%;
+    width: 65%;
     background-color: #EEF7EC;
 
     border-radius: 20px;
@@ -266,18 +266,30 @@
     background-color: rgba(0, 0, 0, 0.499);
     background-blend-mode: multiply;
 
+    color: #ffffff;
+    font-size: 1.7rem;
+    text-decoration: none; 
+    
     position: relative;
 }
 
-.adv p {
-    position: absolute;
-    left: 12%;
-    top: 42%;
+.adv:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
 
-    color: #ffffff;
-    font-size: 1.7rem;
+    background-color: rgba(0, 0, 0, 0.108);
+}
 
-    margin: 0 10%;
+.adv span {
+    position: relative;
+    left: 15%;
+    top: 40%;
+
+    display: inline-block;
+    
+    margin-right: 20%;
+    width: 66%;
+    text-align: center;
 }
 
 .adv1-pecivo {
