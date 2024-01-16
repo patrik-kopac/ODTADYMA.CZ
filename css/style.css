@@ -460,4 +460,15 @@
 /*--------------------------footer-shop-----------------------*/
 
 /*------------------------signature--------------------------*/
-.
+.signature {
+    background-color: #000000;
+
+    padding: 20px 0;
+    margin-top: 3%;
+}
+
+.signature p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
