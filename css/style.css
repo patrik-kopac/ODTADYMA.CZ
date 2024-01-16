@@ -367,10 +367,7 @@
     padding: 5%;
 }
 
-.hp-news1,
-.hp-news2,
-.hp-news3,
-.hp-news4 {
+.hp-news-all {
     width: 47.5%;
     height: 25vh;
 
@@ -383,6 +380,13 @@
     background-blend-mode: multiply;
 
     position: relative;
+}
+
+.hp-news-all:hover {
+    transform: scale(1.02);
+    transition: 1.0s;
+
+    background-color: rgba(0, 0, 0, 0.275);
 }
 
 .hp-news3, 
@@ -429,7 +433,7 @@
 
 .hp-news a {
     text-decoration: none;
-    background-color: #58AF46;
+    background-color: #377723;
     color: #ffffff;
     font-size: 1.5rem;
 
@@ -440,6 +444,15 @@
     right: 5%;
     bottom: 10%;
 }
+
+.hp-news a:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+
+    background-color: #499e2f;
+}
+
+
 /* ---------------------------FOOTER-----------------------------*/
 
 /*------------------------footer-contacts------------------*/
@@ -447,3 +460,4 @@
 /*--------------------------footer-shop-----------------------*/
 
 /*------------------------signature--------------------------*/
+.
