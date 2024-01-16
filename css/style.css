@@ -343,7 +343,103 @@
 
 
 /*-----------------------------news-----------------------*/
+.hp-news {
+    width: 80vw;
+    margin: 0 auto;
+}
 
+.hp-news h2 {
+    color: #377723;
+    padding-bottom: 3%;
+
+}
+
+.hp-news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 30%;
+
+    background-color: #EEF7EC;
+
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.hp-news1,
+.hp-news2,
+.hp-news3,
+.hp-news4 {
+    width: 47.5%;
+    height: 25vh;
+
+    border-radius: 20px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgba(0, 0, 0, 0.499);
+    background-blend-mode: multiply;
+
+    position: relative;
+}
+
+.hp-news3, 
+.hp-news4 {
+    margin-top: 3%;
+}
+
+.hp-news1 {
+    background-image: url("/assets/news/stastny-novy-rok-2024.jpg");
+}
+
+.hp-news2 {
+    background-image: url("/assets/news/farmarsky-vanocni-trh-2023.jpg");
+}
+
+.hp-news3 {
+    background-image: url("/assets/news/pozvanka-keramika-dohnalkovi.jpg");
+}
+
+.hp-news4 {
+    background-image: url("/assets/news/novinka-sufan-masla.jpg");
+}
+
+.hp-news h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ffffff;
+    
+    margin: 0 10% 1% 0;
+    position: absolute;
+    left: 5%;
+    bottom: 30%;
+}
+
+.hp-news time {
+    font-size: 1.2rem;
+    color: white;
+    
+    margin: 0 5% 1% 0;
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+}
+
+.hp-news a {
+    text-decoration: none;
+    background-color: #58AF46;
+    color: #ffffff;
+    font-size: 1.5rem;
+
+    padding: 1% 5%;
+    border-radius: 20px;
+
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+}
 /* ---------------------------FOOTER-----------------------------*/
 
 /*------------------------footer-contacts------------------*/
