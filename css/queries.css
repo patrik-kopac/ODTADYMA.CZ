@@ -28,6 +28,10 @@
     .boss-text p {
         font-size: 1.4rem;
     }
+
+    .adv {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -40,6 +44,22 @@
 
     .boss-text p {
         font-size: 1.2rem;
+    }
+
+    .adv-img-container-big {
+        display: none;
+    }
+
+    .adv-img-container-small {
+        grid-area: "five";
+
+        display: flex;
+
+        height: 25vh;
+    }
+
+    .adv {
+        font-size: 1.3rem;
     }
 }
 
@@ -186,6 +206,21 @@
     :root h2 {
         margin-top: 5vh;
     }
+
+    .adv-img-container-small {
+        display: none;
+    }
+
+    .advantages {
+        row-gap: 20px;
+        column-gap: 20px;
+        grid-auto-columns: 1fr 1fr;
+        grid-template-areas:
+        "one two"
+        "three four"
+        "six seven"
+        "eight nine";
+    }
 }
 
 /* -----------------------POD 770px--------------------------- */
@@ -213,6 +248,14 @@
 
     .boss-signature {
         padding-top: 5%;
+    }
+}
+
+/* -----------------------POD 600px--------------------------- */
+@media (max-width: 600px) {
+    .advantages {
+        display: flex;
+        flex-direction: column;
     }
 }
 

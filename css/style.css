@@ -266,7 +266,7 @@
 }
 
 .adv,
-.adv-img-container {
+.adv-img-container-big {
     height: 25vh;
 }
 
@@ -323,11 +323,15 @@
     grid-area: "four";
 }
 
-.adv-img-container {
+.adv-img-container-big {
     grid-area: "five";
 
     display: flex;
     align-items: center;
+}
+
+.adv-img-container-small {
+    display: none;
 }
 
 .adv5-farmary {
@@ -346,10 +350,11 @@
     grid-area: "nine";
 }
 
-.adv-img-container img {
+.adv-img-container-big img,
+.adv-img-container-small img {
     width: 100%;
 
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 
     padding-top: 6%;
