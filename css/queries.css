@@ -69,8 +69,8 @@
         display: none;
 
         position: absolute;
-        top: 6.9vh;
-        right: calc(0vw - 3vw);
+        top: 6.95vh;
+        right: calc(0vw - 2.5vw);
 
         background-color: #3e6f2fbd;
 
@@ -110,13 +110,13 @@
     .text-logo {
         display: block;
 
-        height: 5vh;
+        height: 4.5vh;
         margin-top: 1vh;
     }
 }
 
-/* -----------------------POD 650px--------------------------- */
-@media (max-width: 650px) {
+/* -----------------------POD 770px--------------------------- */
+@media (max-width: 770px) {
     .logo {
         width: fit-content;
     }
