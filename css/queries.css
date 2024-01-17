@@ -7,8 +7,8 @@
 
 }
 
-/* -----------------------POD 1500px--------------------------- */
-@media (max-width: 1500px) {
+/* -----------------------POD 1550px--------------------------- */
+@media (max-width: 1550px) {
     .header-contacts li {
         font-size: 1.2rem;
     }
@@ -16,11 +16,29 @@
     .header nav li {
         font-size: 1.4rem;
     }
+
+    #welcome h2 {
+        font-size: 3.5rem;
+    }
+
+    #welcome h3 {
+        font-size: 1.6rem;
+    }
+
+    .boss-text p {
+        font-size: 1.4rem;
+    }
 }
+
+
 
 /* -----------------------POD 1300px--------------------------- */
 @media (max-width: 1300px) {
     .header nav li {
+        font-size: 1.2rem;
+    }
+
+    .boss-text p {
         font-size: 1.2rem;
     }
 }
@@ -35,6 +53,26 @@
     .header-contacts li {
         font-size: 1rem;
         padding: 5px 10px;
+    }
+
+    #welcome h2 {
+        font-size: 2.5rem;
+    }
+
+    #welcome h3 {
+        font-size: 1.2rem;
+    }
+
+    .boss-text p {
+        font-size: 1rem;
+    }
+
+    .boss-img span {
+        font-size: 1.2rem;
+    }
+
+    .boss-img figcaption {
+        font-size: 1rem;
     }
 }
 
@@ -103,6 +141,10 @@
         text-align: right;
     }
 
+    .logo {
+        width: fit-content;
+    }
+
     .full-logo {
         display: none;
     }
@@ -113,20 +155,64 @@
         height: 4.5vh;
         margin-top: 1vh;
     }
+
+    .boss-intro {
+        display: block;
+        padding: 1vh 0 5vh 0;
+    } 
+
+    .boss-text {
+        width: 94%;
+    }
+
+    .boss-img {
+        display: none;
+    }
+
+    .boss-signature {
+        display: block;
+
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    .boss-signature span {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #377723;
+    }
+
+    :root h2 {
+        margin-top: 5vh;
+    }
 }
 
 /* -----------------------POD 770px--------------------------- */
 @media (max-width: 770px) {
-    .logo {
-        width: fit-content;
-    }
-
     .nav-container {
         width: fit-content;
     }
 
     .nav-container .nav {
         width: 50vw;       
+    }
+
+    #welcome h2 {
+        font-size: 2rem;
+    }
+
+    #welcome h3 {
+        display: none;
+    }
+
+    .boss-text {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .boss-signature {
+        padding-top: 5%;
     }
 }
 

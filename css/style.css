@@ -168,8 +168,9 @@
 }
 
 #welcome h2 {
-    padding: 40vh 5% 0 5%;
+    padding: 40vh 5% 0 10%;
     margin: 0;
+    text-align: left;
 
     font-size: 5rem;
     color: #ffffff;
@@ -177,11 +178,11 @@
 
 #welcome h3 {
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1.9rem;
     color: #ffffff;
     
-    text-align: center;
-    padding: 0 5% 1% 5%;
+    text-align: left;
+    padding: 0 5% 1% 10%;
 }
 
 /*--------------------------about-us------------------------*/
@@ -205,7 +206,7 @@
 
 /*--------------boss-text--------------*/
 .boss-text {
-    width: 65%;
+    width: 60%;
     background-color: #e9e9e9;
 
     border-radius: 20px;
@@ -213,9 +214,12 @@
 }
 
 .boss-text p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
+.boss-signature {
+    display: none;
+}
 
 /*--------------boss-img--------------*/
 .boss-img {
