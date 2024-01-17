@@ -65,7 +65,7 @@
         display: none;
     }
 
-    .nav {
+    .nav-container .nav {
         display: none;
 
         position: absolute;

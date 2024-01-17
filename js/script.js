@@ -3,9 +3,10 @@
 // tvorba premenných
 const menuIcon = document.querySelector(`.menu-icon`)
 
-const menuList = document.querySelector(".nav")
+const menuList = document.querySelector(`.nav`)
 
-const hamburgerIcon = document.querySelector(".fa-solid")
+const hamburgerIcon = document.querySelector(".menu-icon .fa-solid")
+console.log(hamburgerIcon);
 
 // prepínanie classov z hamburger menu na krížik a naopak
 menuIcon.addEventListener(`click`, () => {
