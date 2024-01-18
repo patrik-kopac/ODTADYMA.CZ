@@ -1,10 +1,13 @@
 /* -----------------------POD 1800px--------------------------- */
 @media (max-width: 1800px) {
-    .header nav li {
-        font-size: 1.6rem;
-        padding: 0.7%;
+    .nav li {
+        font-size: 1.4rem;
+        padding: 0.5% 2%;
     }
 
+    .header-contacts li {
+        font-size: 1.6rem;
+    }
 }
 
 /* -----------------------POD 1650px--------------------------- */
@@ -28,10 +31,11 @@
 @media (max-width: 1550px) {
     .header-contacts li {
         font-size: 1.2rem;
+        padding: 5px 9px;
     }
 
-    .header nav li {
-        font-size: 1.4rem;
+    .nav li {
+        font-size: 1.2rem;
     }
 
     #welcome h2 {
@@ -74,15 +78,14 @@
     .footer-logo-big {
         background-color: inherit;
     }
-
 }
 
 
 
-/* -----------------------POD 1300px--------------------------- */
-@media (max-width: 1300px) {
-    .header nav li {
-        font-size: 1.2rem;
+/* -----------------------POD 1350px--------------------------- */
+@media (max-width: 1350px) {
+    .nav li {
+        font-size: 1rem;
     }
 
     .boss-text p {
@@ -151,8 +154,9 @@
 
 /* -----------------------POD 1100px--------------------------- */
 @media (max-width: 1100px) {
-    .header nav li {
-        font-size: 1rem;
+    .nav li {
+        font-size: 0.9rem;
+        padding: 0.5% 1.5%;
     }
     
     .header-contacts li {

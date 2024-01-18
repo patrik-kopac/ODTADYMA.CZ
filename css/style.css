@@ -94,13 +94,13 @@
 
     display: inline-block;
 
-    margin-right: 1%;
+    margin-right: 0.5%;
     padding: 10px 15px;
     border-radius: 50%;
 }
 
-.header-contacts a {
-    color: rgb(255, 255, 255);
+.header-contacts li:last-of-type {
+    margin-right: 0%;
 }
 
 .header-contacts li:hover {
@@ -108,25 +108,28 @@
     transition: 0.7s;
 }
 
+.header-contacts a {
+    color: rgb(255, 255, 255);
+}
+
 
 
 /*---------------------------nav-------------------------*/
 .nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .nav li {
     list-style: none;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     background-color: #377723;
 
     display: inline-block;
 
-    padding: 0.7% 1.2%; 
+    padding: 0.5% 1.5%; 
     border-radius: 20px;
 }
-
 
 .nav li a {
     color: #ffffff;
