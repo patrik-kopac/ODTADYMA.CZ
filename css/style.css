@@ -269,8 +269,7 @@
     grid-template-areas:
     "one two three"
     "four five six"
-    "seven eight nine"
-    ;
+    "seven eight nine";
 }
 
 .adv,
@@ -381,7 +380,6 @@
 .hp-news h2 {
     color: #377723;
     padding-bottom: 3%;
-
 }
 
 .hp-news-container1 {

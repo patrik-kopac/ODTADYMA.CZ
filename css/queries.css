@@ -130,14 +130,6 @@
     }
 
     .footer-contacts a {
-        font-size: 1rem;
-    }
-
-    .footer-shop p {
-        font-size: 1rem;
-    }
-
-    .footer-contacts a {
         font-size: 1.2rem;
     }
 
@@ -161,7 +153,6 @@
     
     .header-contacts li {
         font-size: 1rem;
-        padding: 5px 10px;
     }
 
     #welcome h2 {
@@ -458,5 +449,10 @@
 
     .news-archive {
         width: 50%;
+    }
+
+    #welcome h2 {
+        font-size: 1.2rem;
+        margin-right: 10%;
     }
 }
