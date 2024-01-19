@@ -1,0 +1,279 @@
+/* ----------------------------BASICS----------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+
+/* ------------------------FONTS,ICONS ------------------------*/
+@import url(https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium);
+
+@font-face {
+    font-family: "Margon 360 W08 Medium";
+    src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot");
+    src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.svg#Margon 360 W08 Medium")format("svg");
+}
+
+
+
+/* ---------------------------SHARED-----------------------------*/
+* {
+    font-family: "Margon 360 W08 Medium";
+}
+
+
+
+/* ---------------------------FOOTER-----------------------------*/
+footer {
+    margin-top: 10vh;
+}
+
+
+
+/*------------------------footer-container------------------*/
+.footer-container {
+    background-color: #377723;
+}
+
+            @media (min-width: 450px) {
+                .footer-container {
+                    padding: 5% 0;
+                }
+            }
+
+            @media (min-width: 950px) {
+                .footer-container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 2%;
+                }
+            }
+
+.footer-container h3 {
+    color: #EEF7EC;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin: 15% auto 5% auto;
+}
+
+            @media (min-width: 550px) {
+                .footer-container h3 {
+                    margin: 0 auto;
+                }
+            }
+/* 
+.footer-contacts h3:first-of-type,
+.footer-shop h3:first-of-type {
+    margin: 0 auto 5% auto;
+} */
+
+.footer-container li {
+    list-style: none;
+}
+
+.footer-container p,
+.footer-container li {
+    text-align: center;
+}
+
+.footer-contacts ul:first-of-type,
+.footer-shop ul:first-of-type {
+    margin-bottom: 10%;
+}
+
+.footer-container span {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-container a {
+    text-decoration: none;
+}
+
+
+/*------------------------footer-info------------------*/
+.footer-info {
+    margin: 10% auto 0 auto;
+    width: 70%;
+    padding: 10% 0;
+}
+
+            @media (min-width: 400px) {
+                .footer-info {
+                    font-size: 1.1rem;
+                }
+            }
+
+            @media (min-width: 450px) {
+                .footer-info {
+                    border-radius: 20px;
+                    border: 1px solid white;
+                    margin: 0 auto;
+                    padding: 5%;
+                    width: 90%;
+                }
+            }
+
+            @media (min-width: 550px) {
+                .footer-info {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+
+            @media (min-width: 950px) {
+                .footer-info {
+                    width: 50%;
+                    padding: 0;
+
+                    border: none;
+                    font-size: 1rem;
+                }
+            }
+
+            @media (min-width: 1400px) {
+                .footer-info {
+                    font-size: 1.2rem;
+                    justify-content: left;
+                }
+            }
+
+
+
+/*------------------------footer-contacts------------------*/
+.footer-contacts {
+    width: 100%;
+}
+
+            @media (min-width: 550px) {
+                .footer-contacts {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+            }
+
+.footer-contacts a {
+    display: inline-block;
+    color: black;
+}
+
+.footer-contacts a:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer-contacts ul li:nth-of-type(1),
+.footer-contacts ul li:nth-of-type(2) {
+    margin-bottom: 5%;
+}
+
+.footer-contacts ul:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-contacts ul:nth-of-type(2) li {
+    margin: 0 3%;
+}
+
+.footer-contacts i {
+    font-size: 3rem;
+    
+    background-color: #EEF7EC;
+    border-radius: 10px;
+    padding: 5px 7px;
+}
+
+.footer-contacts i:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+
+.footer-contacts .fa-facebook {
+    color: #0866FF;
+}
+
+.footer-contacts .fa-instagram {
+    color: black;
+}
+
+            @media (min-width: 450px) {
+                .footer-contacts h3 {
+                    margin: 0 auto 5% auto;
+                }
+            }
+
+
+
+/*------------------------footer-shop------------------*/
+.footer-shop {
+    width: 100%;
+}
+
+            @media (min-width: 550px) {
+                .footer-shop {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+            }
+
+.footer-shop p:nth-of-type(4) {
+    margin-bottom: 10%;
+} 
+
+            @media (min-width: 550px) {
+                .footer-shop h3 {
+                    padding-bottom: 5%;
+                }
+            }
+
+/*------------------------footer-map------------------*/
+.footer-map {
+    display: none;
+}
+
+            @media (min-width: 950px) {
+                .footer-map {
+                    display: block;
+                    width: 50%;
+                    height: 30vh;
+                    margin: 0 3%;
+                }
+            }
+
+            @media (min-width: 1400px) {
+                .footer-map {
+                    height: 35vh;
+                }
+            }
+
+.footer-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*------------------------signature--------------------------*/
+.signature {
+    background-color: #9b9b9b;
+
+    padding: 20px 0;
+}
+
+.signature p {
+    text-align: center;
+    color: #e9e9e9;
+}
