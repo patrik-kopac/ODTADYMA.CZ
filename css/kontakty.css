@@ -47,6 +47,9 @@
                 }
             }
 
+
+
+/*-----------------------contacts-container-----------------------*/
 .contacts-container {
     margin: 5vh auto 10vh auto;
 }
@@ -67,7 +70,7 @@
                     display: flex;
                     justify-content: space-evenly;
 
-                    width: 75vw;
+                    width: 80vw;
                     padding: 0;
                     border: none;
                 }
@@ -99,7 +102,7 @@
 
 .contacts a {
     text-decoration: none;
-    color: blue;
+    color: rgba(0, 0, 255, 0.781);
 }
 
 .contacts-container a:hover,
@@ -110,7 +113,7 @@
     display: inline-block;
     text-decoration: underline;
 }
-            /*-----------------------*/
+/*---------------firm-info, boss-info, contact-info-----------*/
 
             @media (min-width: 500px) {
                 
@@ -124,7 +127,7 @@
                 .firm-info,
                 .boss-info,
                 .contact-info {
-                    width: 25vw;
+                    width: calc(80vw / 3);
                     color: #ffffffb1;
                     padding: 5vh 1vw;
                 }
@@ -149,8 +152,6 @@
                 }
             }
 
-            /*-----------------------*/
-
 .strong {
     font-weight: 700;
 }
@@ -159,14 +160,16 @@
     text-decoration: underline;
 }
 
-            /*-----------------------*/
+/*-----------------------------shop-text-----------------------*/
             @media (min-width: 900px) {
                 .shop-text {
                     font-size: 1.2rem;
                 }
             }
-            /*-----------------------*/
 
+            
+
+/*-------------------------contacts-img-----------------------*/
 .contacts-img-container {
     width: 80vw;
     margin: 2vh auto;
@@ -205,7 +208,7 @@
                 }
             }
 
-
+/*----------------------contacts-to-shop-----------------------*/
 .contacts-to-shop a {
     margin: 10% auto 0 auto;
     padding: 1% 6%;
