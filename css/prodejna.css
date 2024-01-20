@@ -55,7 +55,7 @@
                 .shop-info {
                     border: 1px solid #377723;
                     border-radius: 20px;
-                    padding: 5vh 0;
+                    padding: 5vw;
                     font-size: 1.2rem;
                 }
             }
@@ -196,8 +196,6 @@
 
 .shop-access-img-container a {
     height: 20vh;
-
-    display: inline-block;
 }
 
 .shop-access-img-container a:hover {
