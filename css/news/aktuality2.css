@@ -20,10 +20,17 @@
 /*-----------------------------news-----------------------*/
 .news {
     width: 80vw;
-    margin: 15vh auto 5vh auto;
+    margin: 20vh auto 5vh auto;
 
     position: relative;
 }
+
+            @media (min-width: 950px) {
+
+                .news {
+                    margin: 25vh auto 5vh auto;
+                }
+            }
 
 .news h1 {
     color: #377723;
@@ -32,6 +39,13 @@
     text-align: center;
 }
 
+            @media (min-width: 950px) {
+
+                .news h1 {
+                    font-size: 3rem;
+                }
+            }
+
 .news-container {
     display: flex;
     flex-direction: column;
@@ -39,6 +53,14 @@
     align-items: center;
     gap: 30px;
 }
+
+            @media (min-width: 950px) {
+
+                .news-container {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                }
+            }
 
 .news-all {
     width: 100%;
@@ -53,6 +75,20 @@
 
     position: relative;
 }
+
+            @media (min-width: 600px) {
+
+                .news-all {
+                    width: 90%;
+                }
+            }
+
+            @media (min-width: 950px) {
+
+                .news-all {
+                    width: 47.5%;
+                }
+            }
 
 .news-all:hover {
     transform: scale(1.02);
@@ -91,6 +127,14 @@
     background-image: url("/assets/news/novinky-machac-morkov.jpg");
 }
 
+
+            @media (min-width: 950px) {
+
+                .news2 {
+                    margin-top: 0;
+                }
+            }
+
 .news1 {
     background-image: url("/assets/news/kvetiny-odtadyma.jpg");
 
@@ -103,6 +147,20 @@
     color: #ffffff;
 }
 
+            @media (min-width: 1100px) {
+                            
+                .news h2 {
+                    font-size: 1.7rem;
+                }
+            }
+
+            @media (min-width: 1550px) {
+                
+                .news h2 {
+                    font-size: 2rem;
+                }
+            }
+
 .news-page-number h2 {
     color: #377723;
     font-size: 1rem;
@@ -110,6 +168,21 @@
 
     padding-bottom: 5%;
 }
+
+            @media (min-width: 1100px) {
+                
+                .news-page-number h2 {
+                        color: #377723;
+                        font-size: 1.2rem;
+                }
+            }
+
+            @media (min-width: 1550px) {
+
+                .news-page-number h2 {
+                    font-size: 1.5rem;
+                }
+            }
 
 .news time {
     font-size: 1.2rem;
@@ -138,18 +211,7 @@
     color: #fff;
 }
 
-.news a:hover {
-    transform: scale(1.05);
-    transition: 0.7s;
-
-    background-color: #499e2f;
-}
-
             @media (min-width: 600px) {
-
-                .news-all {
-                    width: 90%;
-                }
 
                 .news-all a {
                     right: 5%; 
@@ -158,51 +220,14 @@
                 }
             }
 
-            @media (min-width: 950px) {
+.news a:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
 
-                .news {
-                    margin: 25vh auto 5vh auto;
-                }
-                .news-container {
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                }
+    background-color: #499e2f;
+}
 
-                .news-all {
-                    width: 47.5%;
-                }
-
-                .news2 {
-                    margin-top: 0;
-                }
-
-                .news h1 {
-                    font-size: 3rem;
-                }
-            }
-
-            @media (min-width: 1100px) {
-                
-                .news h2 {
-                    font-size: 1.7rem;
-                }
-
-                .news-page-number h2 {
-                        color: #377723;
-                        font-size: 1.2rem;
-                }
-            }
-
-            @media (min-width: 1550px) {
-                
-                .news h2 {
-                    font-size: 2rem;
-                }
-
-                .news-page-number h2 {
-                    font-size: 1.5rem;
-            }
-            }
+   
 
 /*-------------------other pages--------------------*/
 .news-other-pages {
@@ -215,6 +240,13 @@
     align-items: center;
     gap: 2vh;
 }
+
+            @media (min-width: 450px) {
+                .news-other-pages {
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+            }
 
 .news-other-page {
     padding: 3% 2%;
@@ -229,13 +261,6 @@
 
     display: block;
 }
-
-            @media (min-width: 450px) {
-                .news-other-pages {
-                    flex-direction: row;
-                    justify-content: space-around;
-                }
-            }
 
             @media (min-width: 700px) {
                 .news-other-page {

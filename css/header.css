@@ -121,10 +121,17 @@
 }        
 
 .text-logo {
-    height: 6vh;
+    height: 5.5vh;
 
     display: block;
 }
+
+
+            @media (min-width: 350px) {
+                .text-logo {
+                    height: 6vh;
+                }
+            }
 
             @media (min-width: 600px) {
                 .text-logo {
@@ -214,7 +221,7 @@
             @media (min-width: 1550px) {
 
                 .header-contacts li {
-                    font-size: 1.6rem;
+                    font-size: 1.3rem;
 
                     padding: 10px 15px;
                 }
@@ -223,7 +230,7 @@
             @media (min-width: 1800px) {
 
                 .header-contacts li {
-                    font-size: 1.8rem;
+                    font-size: 1.4rem;
                 }
             }
 
