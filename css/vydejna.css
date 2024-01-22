@@ -1,0 +1,146 @@
+
+/* -------------------adding to header-------------------------*/
+#nav-partners a {
+    text-decoration: underline;
+}
+            @media (min-width: 950px) {
+
+                #nav-partners {
+                    background-color: #483E86;
+                }
+
+                #nav-partners a {
+                    color: white;
+                }
+            }
+
+/* ------------------------MAIN--------------------------------*/
+
+/*-----------------------------partners-----------------------*/
+.partners {
+    width: 80vw;
+    margin: 20vh auto 5vh auto;
+}
+
+            @media (min-width: 1000px) {
+
+                .partners {
+                    margin: 30vh auto 5vh auto;
+                }
+            }
+
+.partners h1 {
+    color: #377723;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding-bottom: 5%;
+}
+
+            @media (min-width: 900px) {
+
+                .partners h1 {
+                    font-size: 3rem;
+                }
+            }
+
+.partners-container {
+    margin-top: 5vh;
+
+    width: 100%;
+}
+
+            @media (min-width: 750px) {
+                .partners-container {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+            }
+
+.partners-all {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+
+    width: 100%;
+    height: 30vh;
+    border-radius: 20px;
+
+    position: relative;
+
+    display: block;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.642);
+    background-blend-mode: multiply;
+}
+
+            @media (min-width: 500px) {
+                .partners-all {
+                    font-size: 1.3rem;
+                }
+            }
+            
+            @media (min-width: 750px) {
+                .partners-all {
+                    flex-basis: calc(100% / 2 - 1%);
+                    font-size: 1.2rem;
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .partners-all {
+                    flex-basis: calc(100% / 3 - 1%);
+                }
+            }
+
+.partners-all:hover {
+    transform: scale(1.03);
+    transition: 0.7s;
+
+    background-color: rgba(0, 0, 0, 0.319);
+}
+
+.partners-all span {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+
+    display: inline-block;
+
+    text-align: center;
+    margin-right: 20%;
+}
+
+.partner-kreta {
+    background-image: url("/assets/partners/milujeme-kretu1.jpg");
+}
+
+.partner-agrofyto {
+    background-image: url("/assets/partners/agrofyto3.jpg");
+}
+
+.partner-zelenina-vizovice {
+    background-image: url("/assets/partners/vizovice-zelenina1.jpg");
+}
+
+.partner-agrofyto,
+.partner-zelenina-vizovice {
+    margin-top: 2vh;
+}
+
+            @media (min-width: 750px) {
+                .partner-agrofyto {
+                    margin-top: 0;
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .partner-zelenina-vizovice {
+                    margin-top: 0;
+                }
+            }
