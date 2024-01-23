@@ -45,6 +45,14 @@
                 }
             }
 
+.partners h2 {
+    text-transform: none;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #377723;
+}
+
+/*--------------------------------partners-container--------------------------*/
 .partners-container {
     margin-top: 5vh;
 
@@ -117,7 +125,7 @@
 }
 
 .partner-kreta {
-    background-image: url("/assets/partners/milujeme-kretu1.jpg");
+    background-image: url("/assets/partners/milujeme-kretu3.jpg");
 }
 
 .partner-agrofyto {
