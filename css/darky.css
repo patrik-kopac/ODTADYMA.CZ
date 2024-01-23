@@ -1,0 +1,187 @@
+
+/* -------------------adding to header-------------------------*/
+#nav-gifts a {
+    text-decoration: underline;
+}
+            @media (min-width: 950px) {
+
+                #nav-gifts {
+                    background-color: #483E86;
+                }
+
+                #nav-gifts a {
+                    color: white;
+                }
+            }
+
+/* ------------------------MAIN--------------------------------*/
+
+/*-----------------------------zelenina-vizovice-----------------------*/
+.main {
+    width: 80vw;
+    margin: 20vh auto 5vh auto;
+}
+
+            @media (min-width: 1000px) {
+
+                .main {
+                    margin: 30vh auto 5vh auto;
+                }
+            }
+
+.main h1 {
+    color: #377723;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding-bottom: 5%;
+}
+
+            @media (min-width: 900px) {
+
+                .main h1 {
+                    font-size: 3rem;
+                }
+            }
+
+.main p a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.781);
+
+    display: inline-block;
+}
+
+.main p a:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+
+    text-decoration: underline;
+}
+
+
+/*-----------------------------gallery-----------------------*/
+.gallery {
+    width: 100%;
+    margin: 5vh 0;
+}
+
+            @media (min-width: 900px) {
+                .gallery {
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+
+                    border: 1px solid #377723;
+                    border-radius: 20px;
+                }
+            }
+
+            @media (min-width: 900px) {
+                .gallery figure {
+                    flex-basis: calc(100% / 2 - 4%);
+                    padding: 4% 2%;
+                }
+            }
+
+.gallery figure:nth-of-type(2),
+.gallery figure:nth-of-type(3) {
+    margin-top: 3vh;
+}
+
+            @media (min-width: 900px) {
+                .gallery figure:nth-of-type(2),
+                .gallery figure:nth-of-type(3) {
+                    margin-top: 0;
+                }
+                .gallery figure:nth-of-type(3) {
+                    flex-basis: calc(100% / 1);
+                }
+            }
+
+.gallery figure a {
+    width: 100%;
+
+    display: block;
+
+    padding: 3% 0;
+}
+
+.gallery figure a:hover {
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+
+.gallery a img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 20px;
+}
+
+            @media (min-width: 900px) {
+                .gallery a img {
+                    border-radius: 0;
+                }
+            }
+
+/*-----------------------------contact-----------------------*/
+#urls {
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+            @media (min-width: 450px) {
+                #urls  {
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+            }
+
+#urls .url {
+    padding: 3% 2%;
+    border-radius: 20px;
+    width: 80%;
+
+    text-decoration: none;
+    background-color: #377723;
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+
+    display: block;
+}
+
+            @media (min-width: 700px) {
+                #urls .url  {
+                    padding: 1% 6%;
+                }
+            }
+
+            @media (min-width: 950px) {
+                
+                #urls .url {
+                    width: 30%;
+                }
+            }
+
+            @media (min-width: 1100px) {
+                #urls .url {
+                    font-size: 1.5rem;
+                }
+            }
+
+#urls a:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+
+    background-color: #377723db;
+}
+            

@@ -77,6 +77,7 @@
     text-decoration: underline;
 }
 
+/*-----------------------------gallery-----------------------*/
 .gallery {
     width: 100%;
     margin: 5vh 0;
@@ -138,6 +139,9 @@
                 }
             }
 
+
+
+/*-----------------------------list-----------------------*/
 .main ul {
     width: 100%;
 }
@@ -152,6 +156,9 @@
     text-transform: uppercase;
 }
 
+
+
+/*-----------------------------contact-----------------------*/
 #url h2 {
     text-align: center;
 }
