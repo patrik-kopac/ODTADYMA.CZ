@@ -129,7 +129,7 @@
 .menu-list a:hover {
     transform: scale(1.02);
     transition: 0.7s;
-    background-color: #ff81815e;
+    background-color: #d3d3d3e1;
     border-radius: 10px;
 }
 
