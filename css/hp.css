@@ -3,7 +3,7 @@
 
 /*--------------------------welcome-----------------------------*/
 #welcome {
-    background-image: url(/assets/shop/1643640044768.jpg);
+    background-image: url(/assets/shop/bedynky.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -293,7 +293,6 @@
     height: 15vh;
     border-radius: 20px;
 
-    background-image: url("/assets/shop/k.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -330,6 +329,42 @@
                 }
             }
 
+
+.adv1-pecivo {
+    background-image: url("/assets/shop/pecivo.png");
+}
+
+.adv2-bezobal {
+    background-image: url("/assets/shop/bezobal.jpg");
+}
+
+.adv3-napoje {
+    background-image: url("/assets/shop/piva.jpg");
+}
+
+.adv4-zelovoc {
+    background-image: url("/assets/shop/zelovoc.png");
+}
+
+.adv5-darky {
+    background-image: url("/assets/shop/plne-bedinky.jpg");
+}
+
+.adv6-farmary {
+    background-image: url("/assets/partners/agrofyto3.jpg");
+}
+
+.adv7-remesla {
+    background-image: url("/assets/shop/talire.jpg");
+}
+
+.adv8-trhy {
+    background-image: url("/assets/shop/kreta.jpg");
+}
+
+.adv9-trvanlive {
+    background-image: url("/assets/shop/leco.jpg");
+}
 
 /* .adv-img-container-big {
     display: none;
