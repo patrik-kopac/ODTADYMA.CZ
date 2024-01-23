@@ -16,20 +16,20 @@
 
 /* ------------------------MAIN--------------------------------*/
 
-/*-----------------------------partners-----------------------*/
-.agrofyto {
+/*-----------------------------zelenina-vizovice-----------------------*/
+.main {
     width: 80vw;
     margin: 20vh auto 5vh auto;
 }
 
             @media (min-width: 1000px) {
 
-                .agrofyto {
+                .main {
                     margin: 30vh auto 5vh auto;
                 }
             }
 
-.agrofyto h1 {
+.main h1 {
     color: #377723;
     font-size: 2rem;
     text-transform: uppercase;
@@ -40,12 +40,12 @@
 
             @media (min-width: 900px) {
 
-                .agrofyto h1 {
+                .main h1 {
                     font-size: 3rem;
                 }
             }
 
-.agrofyto h2 {
+.main h2 {
     text-transform: none;
     text-align: left;
     font-size: 1.5rem;
@@ -55,7 +55,7 @@
 }
 
             @media (min-width: 900px) {
-                .agrofyto h2 {
+                .main h2 {
                     font-size: 2rem;
                     
                     padding-bottom: 2%;
@@ -63,29 +63,27 @@
                 }
             }
 
-.agrofyto a:nth-of-type(1),
-.agrofyto a:nth-of-type(2) {
+.main p a {
     text-decoration: none;
     color: rgba(0, 0, 255, 0.781);
 
     display: inline-block;
 }
 
-.agrofyto a:nth-of-type(1):hover ,
-.agrofyto a:nth-of-type(2):hover {
+.main p a:hover {
     transform: scale(1.05);
     transition: 0.7s;
 
     text-decoration: underline;
 }
 
-.agrofyto-gallery {
+.gallery {
     width: 100%;
     margin: 5vh 0;
 }
 
             @media (min-width: 900px) {
-                .agrofyto-gallery {
+                .gallery {
                     display: flex;
                     justify-content: space-evenly;
 
@@ -95,23 +93,23 @@
             }
 
             @media (min-width: 900px) {
-                .agrofyto-gallery figure {
+                .gallery figure {
                     flex-basis: calc(100% / 2 - 4%);
                     padding: 4% 2%;
                 }
             }
 
-.agrofyto-gallery figure:last-of-type {
+.gallery figure:last-of-type {
     margin-top: 3vh;
 }
 
             @media (min-width: 900px) {
-                .agrofyto-gallery figure:last-of-type {
+                .gallery figure:last-of-type {
                     margin-top: 0;
                 }
             }
 
-.agrofyto-gallery figure a {
+.gallery figure a {
     width: 100%;
 
     display: block;
@@ -119,12 +117,12 @@
     padding: 3% 0;
 }
 
-.agrofyto-gallery figure a:hover {
+.gallery figure a:hover {
     transform: scale(1.02);
     transition: 0.7s;
 }
 
-.agrofyto-gallery a img {
+.gallery a img {
     width: 100%;
     height: 100%;
 
@@ -135,30 +133,30 @@
 }
 
             @media (min-width: 900px) {
-                .agrofyto-gallery a img {
+                .gallery a img {
                     border-radius: 0;
                 }
             }
 
-.agrofyto ul {
+.main ul {
     width: 100%;
 }
 
-.agrofyto ul li {
+.main ul li {
     list-style: none;
     padding: 2% 0;
 }
 
-.agrofyto ul li span {
+.main ul li span {
     font-weight: 700;
     text-transform: uppercase;
 }
 
-#agrofyto-url h2 {
+#url h2 {
     text-align: center;
 }
 
-#agrofyto-url a {
+#url a {
     margin: 1vh auto 0 auto;
     padding: 3% 2%;
     border-radius: 20px;
@@ -174,15 +172,22 @@
 }
 
             @media (min-width: 600px) {
-                #agrofyto-url a {
+                #url a {
                     width: 60%;
                 }
             }
 
             @media (min-width: 900px) {
-                #agrofyto-url a {
+                #url a {
                     width: 40%;
                     font-size: 1.4rem;
                     padding: 1% 2%;
                 }
             }
+
+#url a:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+
+    background-color: #377723db;
+}
