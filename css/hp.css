@@ -296,7 +296,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.499);
+    background-color: rgba(0, 0, 0, 0.644);
     background-blend-mode: multiply;
 
     position: relative;
@@ -314,21 +314,6 @@
                     flex-basis: calc(100% / 3 - 4%);
                 }
             }
-
-            @media (min-width: 1350px) {
-                            
-                .adv {
-                    font-size: 1.5rem;
-                }
-            }
-
-            @media (min-width: 1550px) {
-
-                .adv {
-                    font-size: 1.7rem;
-                }
-            }
-
 
 .adv1-pecivo {
     background-image: url("/assets/shop/pecivo.png");
@@ -359,58 +344,18 @@
 }
 
 .adv8-trhy {
-    background-image: url("/assets/shop/kreta.jpg");
+    background-image: url("/assets/shop/farmarske-trhy.jpg");
 }
 
 .adv9-trvanlive {
     background-image: url("/assets/shop/leco.jpg");
 }
 
-/* .adv-img-container-big {
-    display: none;
-
-    height: 25vh;
-}
-
-.adv-img-container-small {
-    display: none;
-
-    height: 25vh;
-}
-
-.adv-img-container-big img,
-.adv-img-container-small img {
-    width: 100%;
-    padding-top: 6%;
-
-    object-fit: contain;
-    object-position: center;
-}
-
-            @media (min-width: 950px) {
-
-                .adv-img-container-small {
-                    display: grid;
-                    grid-area: "five";
-                }
-
-                .adv-img-container-big {
-                    display: flex;
-
-                    align-items: center;
-                }
-
-                .adv-img-container-small {
-                    display: none;
-                }
-            } */
-
-
 .adv:hover {
     transform: scale(1.05);
     transition: 0.7s;
 
-    background-color: rgba(0, 0, 0, 0.244);
+    background-color: rgba(0, 0, 0, 0.33);
 }
 
 .adv span {
@@ -445,6 +390,19 @@
                 }
             }
 
+            @media (min-width: 1350px) {
+                            
+                .adv span {
+                    font-size: 1.5rem;
+                }
+            }
+
+            @media (min-width: 1550px) {
+
+                .adv span {
+                    font-size: 1.7rem;
+                }
+            }
 
 
 

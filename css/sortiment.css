@@ -1,0 +1,219 @@
+
+/* -------------------adding to header-------------------------*/
+#nav-products a {
+    text-decoration: underline;
+}
+            @media (min-width: 950px) {
+
+                #nav-products {
+                    background-color: #483E86;
+                }
+
+                #nav-products a {
+                    color: white;
+                }
+            }
+
+/* ------------------------MAIN--------------------------------*/
+
+/*-----------------------------products-----------------------*/
+.products {
+    width: 80vw;
+    margin: 20vh auto 5vh auto;
+}
+
+            @media (min-width: 1000px) {
+
+                .products {
+                    margin: 30vh auto 5vh auto;
+                }
+            }
+
+.products h1 {
+    color: #377723;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding-bottom: 5%;
+}
+
+            @media (min-width: 900px) {
+
+                .products h1 {
+                    font-size: 3rem;
+                }
+            }
+
+.products p {
+    padding: 0 3vw;
+}
+
+.products p a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.781);
+
+    display: inline-block;
+}
+
+.products a:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+
+    text-decoration: underline;
+}
+
+
+/*-----------------------------gallery-----------------------*/
+.products-gallery {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+
+    margin: 5vh auto;
+}
+
+            @media (min-width: 600px) {                      
+                .products-gallery {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+            }
+
+            @media (min-width: 950px) {      
+                .products-gallery {
+                    justify-content: space-evenly;
+                }
+            }
+
+.product {
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+
+    height: 20vh;
+    border-radius: 20px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    background-blend-mode: multiply;
+
+    position: relative;
+}
+
+            @media (min-width: 600px) {
+                .product {
+                    flex-basis: calc(100% / 2 - 2%);
+                    height: 25vh;
+                }
+            }
+
+            @media (min-width: 950px) {
+                .product {
+                    flex-basis: calc(100% / 3 - 4%);
+                }
+            }
+
+            @media (min-width: 1500px) {
+
+                .product {
+                    height: 30vh;
+                }
+            }
+
+.product:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+
+    background-color: rgba(0, 0, 0, 0.33);
+}
+
+.pr1-remesla {
+    background-image: url(/assets/shop/talire.jpg);
+}
+
+.pr2-bezobal {
+    background-image: url(/assets/shop/bezobal2.jpg);
+}
+
+.pr3-farmary {
+    background-image: url(/assets/partners/agrofyto3.jpg);
+}
+
+.pr4-pecivo {
+    background-image: url(/assets/shop/pecivo.png);
+}
+
+.pr5-mlecne {
+    background-image: url(/assets/shop/syry.png);
+}
+
+.pr6-napoje {
+    background-image: url(/assets/shop/piva.jpg);
+}
+
+.pr7-kavacaj {
+    background-image: url(/assets/news/bylinne-caje-karpaty.jpg);
+}
+
+.pr8-zelovoc {
+    background-image: url(/assets/shop/zelovoc.png);
+}
+
+.pr9-trvanlive {
+    background-image: url(/assets/shop/leco.jpg);
+}
+
+            @media (min-width: 600px) {                      
+                .pr9-trvanlive {
+                    flex-basis: calc(100% / 1 );
+                }
+            }
+
+            @media (min-width: 950px) {
+                .pr9-trvanlive {
+                    flex-basis: calc(100% / 3 - 4% );
+                }
+            }
+
+.product span {
+    position: relative;
+    left: 15%;
+    top: 40%;
+
+    display: inline-block;
+    
+    margin-right: 20%;
+    width: 66%;
+
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+            @media (min-width: 950px) {
+                .product span {
+                    font-size: 1.3rem;
+                }
+            }
+
+            @media (min-width: 1350px) {
+                            
+                .product span {
+                    font-size: 1.5rem;
+                }
+            }
+
+            @media (min-width: 1550px) {
+
+                .product span {
+                    font-size: 1.7rem;
+                }
+            }
+
+/*-------------------------little-text--------------------------*/
+.products p:last-of-type {
+    font-style: italic;
+}
