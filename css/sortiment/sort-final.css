@@ -1,0 +1,214 @@
+
+/* -------------------adding to header-------------------------*/
+#nav-products a {
+    text-decoration: underline;
+}
+            @media (min-width: 950px) {
+
+                #nav-products {
+                    background-color: #483E86;
+                }
+
+                #nav-products a {
+                    color: white;
+                }
+            }
+
+/* ------------------------MAIN--------------------------------*/
+.main {
+    width: 80vw;
+    margin: 20vh auto 5vh auto;
+}
+
+            @media (min-width: 1000px) {
+
+                .main {
+                    margin: 30vh auto 5vh auto;
+                }
+            }
+
+.main h1 {
+    color: #377723;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding-bottom: 5%;
+}
+
+            @media (min-width: 900px) {
+
+                .main h1 {
+                    font-size: 3rem;
+                }
+            }
+
+.main p {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main p a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.781);
+
+    display: inline-block;
+}
+
+.main p a:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+
+    text-decoration: underline;
+}
+
+
+
+/*-----------------------product-list----------------------------*/
+.product-list {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main .product-h2 {
+    color: #483E86;
+    margin: 5vh auto 0 auto;
+    padding-bottom: 2%;
+
+    font-size: 2rem;
+}
+
+.product-list ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+            @media (min-width: 650px) {
+                .product-list ul {
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    row-gap: 20px;
+                    column-gap: 10px;
+                }
+            }
+
+.product-list li {
+    text-decoration: none;
+    color: black;
+
+    background-color: #d3d3d36f;
+    text-align: center;
+
+    border-radius: 10px;
+    padding: 10px;
+
+    flex-basis: calc(100% / 2 - 10px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+            @media (min-width: 1350px) {
+                .product-list li {
+                    font-size: 1.1rem;
+                }
+            }
+
+.product-list li:hover {
+    transform: scale(1.02);
+    transition: 0.7s;
+    background-color: #d3d3d3e1;
+    border-radius: 10px;
+}
+
+
+
+/*--------------------------shop-gallery----------------------*/
+.gallery {
+    width: 100%;
+    margin: 0 auto;
+}
+
+            @media (min-width: 750px) {
+                .gallery-container {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+            }
+
+.gallery .product-h2 {
+    color: #483E86;
+    margin: 5vh auto 0 auto;
+    padding-bottom: 2%;
+
+    font-size: 2rem;
+
+}     
+
+            @media (min-width: 500px) {
+                .gallery h2 {
+                    font-size: 1.7rem;
+                }
+            }
+
+.gallery-container div a {
+    width: 100%;
+    height: 30vh;
+    margin: 1vh 0;
+
+    display: inline-block;
+}
+
+            @media (min-width: 500px) {
+                .gallery-container div a {
+                    height: 35vh;
+                }
+            }
+
+            @media (min-width: 750px) {
+                .gallery-container div {
+                    flex-basis: calc(100% / 2 - 1%);
+                }
+            }
+
+            @media (min-width: 950px) {
+                .gallery-container div a {
+                    height: 40vh;
+                }
+            }
+            
+            @media (min-width: 1400px) {
+                .gallery-container div a {
+                    height: 30vh;
+                }
+
+                .gallery-container div {
+                    flex-basis: calc(100% / 3 - 1%);
+                }
+            }
+
+            @media (min-width: 1700px) {
+                .gallery-container div a {
+                    height: 40vh;
+                }
+            }
+
+.img-container a:hover {
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+
+.img-container a img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+    
+    border-radius: 20px;
+}
