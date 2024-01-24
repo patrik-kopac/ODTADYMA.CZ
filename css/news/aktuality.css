@@ -1,6 +1,7 @@
 /* -------------------adding to header-------------------------*/
 #nav-news a {
-    text-decoration: underline;
+    color: #483E86;
+    font-weight: 700;
 }
             @media (min-width: 950px) {
 
@@ -10,6 +11,7 @@
 
                 #nav-news a {
                     color: white;
+                    font-weight: 100;
                 }
             }
 

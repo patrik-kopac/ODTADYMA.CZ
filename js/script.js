@@ -20,3 +20,5 @@ menuIcon.addEventListener(`click`, () => {
         menuList.style.display = "none"
     }
 })
+
+// ---------ROZBALOVACIE MENU NA MOUSEEVENT-----------
