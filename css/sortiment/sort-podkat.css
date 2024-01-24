@@ -205,3 +205,58 @@
                     flex-basis: calc(100% / 3 - 4% );
                 }
             }
+
+.kava {
+    background-image: url("/assets/shop/koreni.jpg");
+}
+
+.caj {
+    background-image: url("/assets/shop/koreni.jpg");
+}
+
+.maso {
+    background-image: url("/assets/shop/koreni.jpg");
+}
+
+.uzeniny {
+    background-image: url("/assets/shop/koreni.jpg");
+}
+
+.alkohol {
+    background-image: url("/assets/shop/koreni.jpg");
+}
+
+.nealko {
+    background-image: url("/assets/shop/koreni.jpg");
+}
+
+.sirupy {
+    background-image: url("/assets/shop/koreni.jpg");
+}
+
+            @media (min-width: 600px) {                      
+                .sirupy {
+                    flex-basis: calc(100% / 1 );
+                }
+            }
+
+            @media (min-width: 950px) {
+                .sirupy {
+                    flex-basis: calc(100% / 3 - 4% );
+                }
+            }
+
+
+
+/*---------------------specificities------------------*/
+
+            @media (min-width: 950px) {
+                .under-3-container {
+                    justify-content: space-between;
+                }
+                
+                .under-3 {
+                    flex-basis: calc(100% / 2 - 2%);
+                }
+
+            }
