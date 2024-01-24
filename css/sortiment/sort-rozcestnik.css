@@ -180,7 +180,7 @@
             }
 
 .product span {
-    position: relative;
+    position: absolute;
     left: 15%;
     top: 40%;
 

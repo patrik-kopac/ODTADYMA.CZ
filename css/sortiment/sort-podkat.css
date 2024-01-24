@@ -1,0 +1,207 @@
+
+/* -------------------adding to header-------------------------*/
+#nav-products a {
+    text-decoration: underline;
+}
+            @media (min-width: 950px) {
+
+                #nav-products {
+                    background-color: #483E86;
+                }
+
+                #nav-products a {
+                    color: white;
+                }
+            }
+
+/* ------------------------MAIN--------------------------------*/
+
+/*-----------------------------categories-----------------------*/
+.categories {
+    width: 80vw;
+    margin: 25vh auto 5vh auto;
+}
+
+            @media (min-width: 1000px) {
+
+                .partners {
+                    margin: 30vh auto 5vh auto;
+                }
+            }
+
+.categories h1 {
+    color: #377723;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding-bottom: 5%;
+}
+
+            @media (min-width: 900px) {
+
+                .categories h1 {
+                    font-size: 3rem;
+                }
+            }
+
+.categories h2 {
+    text-transform: none;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #377723;
+
+    padding-left: 5%;
+}
+
+/*--------------------------------categories-container--------------------------*/
+.categories-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+
+    margin: 5vh auto;
+}
+
+            @media (min-width: 600px) {
+                .categories-container {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+            }
+
+            @media (min-width: 950px) {      
+                .categories-container {
+                    justify-content: space-evenly;
+                }
+            }
+
+.all-categories {
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+
+    height: 20vh;
+    border-radius: 20px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    background-blend-mode: multiply;
+
+    position: relative;
+}
+
+            @media (min-width: 600px) {
+                .all-categories {
+                    flex-basis: calc(100% / 2 - 2%);
+                    height: 25vh;
+                }
+            }
+
+            @media (min-width: 950px) {
+                .all-categories {
+                    flex-basis: calc(100% / 3 - 4%);
+                }
+            }
+
+            @media (min-width: 1500px) {
+
+                .all-categories {
+                    height: 30vh;
+                }
+            }
+
+.all-categories:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+
+    background-color: rgba(0, 0, 0, 0.319);
+}
+
+.all-categories span {
+    position: absolute;
+    left: 15%;
+    top: 40%;
+
+    display: inline-block;
+    
+    margin-right: 20%;
+    width: 66%;
+
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+            @media (min-width: 950px) {
+                .all-categories span {
+                    font-size: 1.3rem;
+                }
+            }
+
+            @media (min-width: 1350px) {
+                            
+                .all-categories span {
+                    font-size: 1.5rem;
+                }
+            }
+
+            @media (min-width: 1550px) {
+
+                .all-categories span {
+                    font-size: 1.7rem;
+                }
+            }
+
+
+/*--------------------categories-img-------------------*/
+
+.mouky-peceni {
+    background-image: url("/assets/shop/mouky.jpg");
+}
+
+.lusteniny-obiloviny {
+    background-image: url("/assets/shop/čoko.jpg");
+}
+
+.medy-dzemy-povidla {
+    background-image: url("/assets/shop/čoko.jpg");
+}
+
+.dresinky-omacky {
+    background-image: url("/assets/shop/čoko.jpg");
+}
+
+.octy-oleje {
+    background-image: url("/assets/shop/čoko.jpg");
+}
+
+.instantni-jidla {
+    background-image: url("/assets/shop/čoko.jpg");
+}
+
+.slane-dobroty {
+    background-image: url("/assets/shop/čoko.jpg");
+}
+
+.sladke-dobroty {
+    background-image: url("/assets/shop/čoko.jpg");
+}
+
+.koreni-dochucovadla {
+    background-image: url("/assets/shop/koreni.jpg");
+}
+
+            @media (min-width: 600px) {                      
+                .koreni-dochucovadla {
+                    flex-basis: calc(100% / 1 );
+                }
+            }
+
+            @media (min-width: 950px) {
+                .koreni-dochucovadla {
+                    flex-basis: calc(100% / 3 - 4% );
+                }
+            }
