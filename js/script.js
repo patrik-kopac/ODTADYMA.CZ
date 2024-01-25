@@ -39,6 +39,9 @@ const iVchod = document.querySelector(`.i-vchod`)
 const iPristup = document.querySelector(`.i-pristup`)
 const iKont1 = document.querySelector(`.i-kont1`)
 const iKont2 = document.querySelector(`.i-kont2`)
+const iGift1 = document.querySelector(`.i-gift1`)
+const iGift2 = document.querySelector(`.i-gift2`)
+const iGift3 = document.querySelector(`.i-gift3`)
 
 const imgBedynky = document.querySelector(`.img-bedynky`)
 const imgBezobal = document.querySelector(`.img-bezobal`)
@@ -56,6 +59,9 @@ const imgVchod = document.querySelector(`.img-vchod`)
 const imgPristup = document.querySelector(`.img-pristup`)
 const imgKont1 = document.querySelector(`.img-kont1`)
 const imgKont2 = document.querySelector(`.img-kont2`)
+const imgGift1 = document.querySelector(`.img-gift1`)
+const imgGift2 = document.querySelector(`.img-gift2`)
+const imgGift3 = document.querySelector(`.img-gift3`)
 
 const gallery = document.querySelector(`.picture-gallery`)
 
@@ -80,6 +86,8 @@ x.addEventListener(`click`, () => {
     iPristup.style.display = "none";
     iKont1.style.display = "none";
     iKont2.style.display = "none";
+    iGift2.style.display = "none";
+    iGift3.style.display = "none";
 } )
 
 // funkcia na zobrazenie vo väčšom móde
@@ -104,6 +112,9 @@ PictureChange(imgKrev, iKrev);
 PictureChange(imgSyry, iSyry);
 PictureChange(imgPristup, iPristup);
 PictureChange(imgVchod, iVchod);
+PictureChange(imgGift1, iGift1);
+PictureChange(imgGift2, iGift2);
+PictureChange(imgGift3, iGift3);
 
 imgKont1.addEventListener(`click`, () => {
     gallery.style.display = "inline-block";
