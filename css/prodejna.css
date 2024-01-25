@@ -221,30 +221,25 @@
 
             
 
-.shop-access-img-container a {
+.shop-access-img-container {
     display: inline-block;
 
     width: 100%;
 }
 
             @media (min-width: 950px) {          
-                .shop-access-img-container a {
+                .shop-access-img-container {
                     height: 40vh;
                 }
             }
 
             @media (min-width: 1500px) {
-                .shop-access-img-container a {
+                .shop-access-img-container {
                     height: 50vh;
                 }
             }
 
-.shop-access-img-container a:hover {
-    transform: scale(1.05);
-    transition: 0.7s;
-}
-
-.shop-access-img-container a img {
+.shop-access-img-container img {
     width: 100%;
     height: 100%;
 
@@ -253,7 +248,14 @@
 
     border-radius: 20px;
 }
-            
+     
+.shop-access-img-container img:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+
+    cursor: pointer;
+}
+
 
 
 
@@ -261,6 +263,10 @@
 .shop-gallery {
     width: 80vw;
     margin: 0 auto;
+}
+
+.shop-gallery-container {
+    width: 100%;
 }
 
             @media (min-width: 750px) {
@@ -284,7 +290,7 @@
                 }
             }
 
-.shop-gallery-container div a {
+.shop-img-container {
     width: 100%;
     height: 30vh;
     margin: 1vh 0;
@@ -293,45 +299,44 @@
 }
 
             @media (min-width: 500px) {
-                .shop-gallery-container div a {
+                .shop-img-container {
                     height: 35vh;
                 }
             }
 
             @media (min-width: 750px) {
-                .shop-gallery-container div {
+                .shop-img-container {
                     flex-basis: calc(100% / 2 - 1%);
                 }
             }
 
             @media (min-width: 950px) {
-                .shop-gallery-container div a {
+                .shop-img-container {
                     height: 40vh;
                 }
             }
             
             @media (min-width: 1400px) {
-                .shop-gallery-container div a {
+                .shop-img-container {
                     height: 30vh;
-                }
-
-                .shop-gallery-container div {
                     flex-basis: calc(100% / 3 - 1%);
                 }
             }
 
             @media (min-width: 1700px) {
-                .shop-gallery-container div a {
+                .shop-img-container {
                     height: 40vh;
                 }
             }
 
-.shop-img-container a:hover {
+.shop-img-container img:hover {
     transform: scale(1.02);
     transition: 0.7s;
+
+    cursor: pointer;
 }
 
-.shop-img-container a img {
+.shop-img-container img {
     width: 100%;
     height: 100%;
 
@@ -341,5 +346,103 @@
     border-radius: 20px;
 }
 
+
+/*-------------------picture gallery-------------------*/
+.picture-gallery {
+    position: fixed;
+    left: 10%;
+    top: 10%;
+
+    display: none;
+
+    width: 80vw;
+    height: 80vh; 
+    margin: 0 auto;
+    border-radius: 20px;
+
+    z-index: 999;
+
+    background-color: rgba(0, 0, 0, 0.922);
+}
+
+            @media (min-width: 700px) {
+                .picture-gallery {
+                    width: 90vw;
+                    height: 90vh;
+
+                    left: 5%;
+                    top: 5%;
+                }
+            }
+
+.picture-gallery-container {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-gallery-container .fa-xmark {
+    position: absolute;
+    top: 1%;
+    right: 2%;
+
+    font-size: 2rem;
+    color: white;
+
+    z-index: 99999;
+}
+
+            @media (min-width: 1200px) {
+                .picture-gallery-container .fa-xmark {
+                    top: 1%;
+                    right: 1%;
+                }
+            }
+
+.fa-xmark:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+
+    cursor: pointer;
+}
+
+.img-pick {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 6% 3%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: 9999;
+}
+
+            @media (min-width: 1200px) {
+                .img-pick {
+                    padding: 3%;
+                }
+            }
            
+.i-bezobal,
+.i-bedynky,
+.i-plne-bedynky,
+.i-koreni,
+.i-bezobal2,
+.i-leco,
+.i-kreta,
+.i-chilli,
+.i-zelovoc,
+.i-mouky,
+.i-krev,
+.i-syry,
+.i-vchod,
+.i-pristup {
+    display: none;    
+}
 
