@@ -3,10 +3,10 @@
 
 /*--------------------------welcome-----------------------------*/
 #welcome {
-    background-image: url(/assets/shop/bedynky.jpg);
+    background-image: url(/assets/shop/prodejna0.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-color: rgba(0, 0, 0, 0.499);
     background-blend-mode: multiply;
 
@@ -316,39 +316,39 @@
             }
 
 .adv1-pecivo {
-    background-image: url("/assets/shop/pecivo.png");
+    background-image: url("/assets/categories/category-pecivo.png");
 }
 
 .adv2-bezobal {
-    background-image: url("/assets/shop/bezobal.jpg");
+    background-image: url("/assets/categories/category-bezobal.jpg");
 }
 
 .adv3-napoje {
-    background-image: url("/assets/shop/piva.jpg");
+    background-image: url("/assets/categories/category-vino-pivo.jpg");
 }
 
 .adv4-zelovoc {
-    background-image: url("/assets/shop/zelovoc.png");
+    background-image: url("/assets/categories/category-ovoce-zelenina.png");
 }
 
 .adv5-darky {
-    background-image: url("/assets/shop/plne-bedinky.jpg");
+    background-image: url("/assets/categories/category-darky.jpg");
 }
 
 .adv6-farmary {
-    background-image: url("/assets/partners/agrofyto3.jpg");
+    background-image: url("/assets/categories/category-maso-syry.JPG");
 }
 
 .adv7-remesla {
-    background-image: url("/assets/shop/talire.jpg");
+    background-image: url("/assets/categories/category-remeslne.jpg");
 }
 
 .adv8-trhy {
-    background-image: url("/assets/shop/farmarske-trhy.jpg");
+    background-image: url("/assets/categories/category-farmarske-trhy.jpg");
 }
 
 .adv9-trvanlive {
-    background-image: url("/assets/shop/leco.jpg");
+    background-image: url("/assets/categories/category-trvanlive.jpg");
 }
 
 .adv:hover {

@@ -161,39 +161,39 @@
 /*--------------------categories-img-------------------*/
 
 .mouky-peceni {
-    background-image: url("/assets/shop/mouky.jpg");
+    background-image: url("/assets/categories/category-mouka-peceni.jpg");
 }
 
 .lusteniny-obiloviny {
-    background-image: url("/assets/shop/čoko.jpg");
+    background-image: url("/assets/categories/category-lusteniny-obiloviny.JPG");
 }
 
 .medy-dzemy-povidla {
-    background-image: url("/assets/shop/čoko.jpg");
+    background-image: url("/assets/categories/category-dzemy-medy-povidla.jpg");
 }
 
 .dresinky-omacky {
-    background-image: url("/assets/shop/čoko.jpg");
+    background-image: url("/assets/categories/category-dresinky-omacky.JPG");
 }
 
 .octy-oleje {
-    background-image: url("/assets/shop/čoko.jpg");
+    background-image: url("/assets/categories/category-octy-oleje.JPG");
 }
 
 .instantni-jidla {
-    background-image: url("/assets/shop/čoko.jpg");
+    background-image: url("/assets/categories/category-instantni-jidla.JPG");
 }
 
 .slane-dobroty {
-    background-image: url("/assets/shop/čoko.jpg");
+    background-image: url("/assets/categories/category-slane-dobroty.jpg");
 }
 
 .sladke-dobroty {
-    background-image: url("/assets/shop/čoko.jpg");
+    background-image: url("/assets/categories/category-sladke-dobroty.jpg");
 }
 
 .koreni-dochucovadla {
-    background-image: url("/assets/shop/koreni.jpg");
+    background-image: url("/assets/categories/category-koreni.jpg");
 }
 
             @media (min-width: 600px) {                      
@@ -209,31 +209,31 @@
             }
 
 .kava {
-    background-image: url("/assets/shop/koreni.jpg");
+    background-image: url("/assets/categories/category-kava.jpg");
 }
 
 .caj {
-    background-image: url("/assets/shop/koreni.jpg");
+    background-image: url("/assets/categories/category-caje.jpg");
 }
 
 .maso {
-    background-image: url("/assets/shop/koreni.jpg");
+    background-image: url("/assets/categories/category-maso.jpg");
 }
 
 .uzeniny {
-    background-image: url("/assets/shop/koreni.jpg");
+    background-image: url("/assets/categories/category-uzeniny.jpg");
 }
 
 .alkohol {
-    background-image: url("/assets/shop/koreni.jpg");
+    background-image: url("/assets/categories/category-alkohol.jpg");
 }
 
 .nealko {
-    background-image: url("/assets/shop/koreni.jpg");
+    background-image: url("/assets/categories/category-nealko.jpg");
 }
 
 .sirupy {
-    background-image: url("/assets/shop/koreni.jpg");
+    background-image: url("/assets/categories/category-sirupy.jpg");
 }
 
             @media (min-width: 600px) {                      

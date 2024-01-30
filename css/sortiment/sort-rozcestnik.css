@@ -134,39 +134,39 @@
 }
 
 .pr1-remesla {
-    background-image: url(/assets/shop/talire.jpg);
+    background-image: url(/assets/categories/category-remeslne.jpg);
 }
 
 .pr2-bezobal {
-    background-image: url(/assets/shop/bezobal2.jpg);
+    background-image: url(/assets/categories/category-bezobal.jpg);
 }
 
 .pr3-farmary {
-    background-image: url(/assets/partners/agrofyto3.jpg);
+    background-image: url(/assets/categories/category-maso-uzeniny.jpg);
 }
 
 .pr4-pecivo {
-    background-image: url(/assets/shop/pecivo.png);
+    background-image: url(/assets/categories/category-pecivo.png);
 }
 
 .pr5-mlecne {
-    background-image: url(/assets/shop/syry.png);
+    background-image: url(/assets/categories/category-mlecne-chlazene.jpg);
 }
 
 .pr6-napoje {
-    background-image: url(/assets/shop/piva.jpg);
+    background-image: url(/assets/categories/category-napoje.jpg);
 }
 
 .pr7-kavacaj {
-    background-image: url(/assets/news/bylinne-caje-karpaty.jpg);
+    background-image: url(/assets/categories/category-kava-caj.JPG);
 }
 
 .pr8-zelovoc {
-    background-image: url(/assets/shop/zelovoc.png);
+    background-image: url(/assets/categories/category-ovoce-zelenina.png);
 }
 
 .pr9-trvanlive {
-    background-image: url(/assets/shop/leco.jpg);
+    background-image: url(/assets/categories/category-trvanlive.jpg);
 }
 
             @media (min-width: 600px) {                      
