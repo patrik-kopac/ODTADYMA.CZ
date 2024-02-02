@@ -151,7 +151,7 @@
 
             <figure>
 
-                <a href="/assets/partners/milujeme-kretu3.jpg" data-lightbox="mygallery">
+                <a href="/assets/partners/milujeme-kretu3.jpg" data-lightbox="mygallery" data-title="Názorná ukázka objednávky zeleniny a ovoce z eshopu milujemekretu.cz.">
                     <img src="/assets/partners/milujeme-kretu3.jpg" alt="Názorná ukázka objednávky zeleniny a ovoce z eshopu milujemekretu.cz, které nám chodí pravidelně cca 1x měsíčně přímo z Kréty pro vás zákazníky.">
                 </a>
 
@@ -163,7 +163,7 @@
 
             <figure>
                 
-                <a href="/assets/partners/milujeme-kretu2.jpg" data-lightbox="mygallery">
+                <a href="/assets/partners/milujeme-kretu2.jpg" data-lightbox="mygallery" data-title="Ovocné stromy na Krétě, odkud Vám ručně trhají a posílají eko ovoce a zeleninu do celé ČR.">
                     <img src="/assets/partners/milujeme-kretu2.jpg" alt="Obrázek jednoho z mnoha ovocných stromů ostrova Kréta, odkud Vám ručně trhají a okamžitě posílají eko ovoce a zeleninu do celé České republiky.">
                 </a>
 
@@ -354,8 +354,15 @@
     </footer>
 
     <!-------------------------------JAVASCRIPT------------------------>
-    <script src="/js/lightbox/lightbox-plus-jquery.min.js"></script>
     <script src="/js/script.js"></script>
+    <script src="/js/lightbox/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+        lightbox.option({
+            'albumLabel': "%1 / %2"
+          })
+    </script>
+  
 
 </body>
 </html>
