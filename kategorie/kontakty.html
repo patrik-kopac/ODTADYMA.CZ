@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/kontakty.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/lightbox/lightbox.min.css">
 
     <link href="https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium" rel="stylesheet">
 
@@ -231,25 +232,6 @@
         
     </section>
 
-    <!---------------------picture-gallery------------------->
-    <div class="picture-gallery">
-
-        <div class="picture-gallery-container">
-
-            <!-- <i class="fa-solid fa-arrow-left"></i>
-
-            <i class="fa-solid fa-arrow-right"></i> -->
-
-            <i class="fa-solid fa-xmark"></i>
-            
-            <img src="/assets/shop/bezobal.jpg" alt="Fotografie produktů na farmářské prodejně Odtadyma na Vsetíně." class="img-pick i-kont1">
-
-            <img src="/assets/shop/plne-bedinky.jpg" alt="Fotografie produktů na farmářské prodejně Odtadyma na Vsetíně." class="img-pick i-kont2">
-
-        </div>
-
-    </div>
-
     <!---------------------contacts-to-shop------------------->
     <div class="contacts-to-shop">
 
@@ -365,7 +347,14 @@
 
 <!-------------------------------JAVASCRIPT------------------------>
 <script src="/js/script.js"></script>
+<script src="/js/lightbox/lightbox-plus-jquery.min.js"></script>
 
+    <script>
+        lightbox.option({
+            'albumLabel': "%1 / %2"
+          })
+    </script>
+  
 </body>
 
 </html>
