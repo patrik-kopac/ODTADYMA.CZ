@@ -1,8 +1,11 @@
 
 /* -------------------adding to header-------------------------*/
 #nav-shop a {
-    color: #483E86;
-    font-weight: 700;
+    background-color: #483E86;
+    color: white;
+    font-weight: 100;
+    padding: 1% 5%;
+    border-radius: 20px;
 }
             @media (min-width: 950px) {
 
@@ -13,6 +16,8 @@
                 #nav-shop a {
                     color: white;
                     font-weight: 100;
+                    background-color: inherit;
+                    padding: 0;
                 }
             }
 
@@ -227,18 +232,6 @@
     width: 100%;
 }
 
-            @media (min-width: 950px) {          
-                .shop-access-img-container {
-                    height: 40vh;
-                }
-            }
-
-            @media (min-width: 1500px) {
-                .shop-access-img-container {
-                    height: 50vh;
-                }
-            }
-
 .shop-access-img-container img {
     width: 100%;
     height: 100%;
@@ -292,40 +285,20 @@
 
 .shop-img-container {
     width: 100%;
-    height: 30vh;
     margin: 1vh 0;
 
     display: inline-block;
 }
-
-            @media (min-width: 500px) {
-                .shop-img-container {
-                    height: 35vh;
-                }
-            }
 
             @media (min-width: 750px) {
                 .shop-img-container {
                     flex-basis: calc(100% / 2 - 1%);
                 }
             }
-
-            @media (min-width: 950px) {
-                .shop-img-container {
-                    height: 40vh;
-                }
-            }
             
             @media (min-width: 1400px) {
                 .shop-img-container {
-                    height: 30vh;
                     flex-basis: calc(100% / 3 - 1%);
-                }
-            }
-
-            @media (min-width: 1700px) {
-                .shop-img-container {
-                    height: 40vh;
                 }
             }
 

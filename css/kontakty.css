@@ -1,8 +1,11 @@
 
 /* -------------------adding to header-------------------------*/
 #nav-contacts a {
-    color: #483E86;
-    font-weight: 700;
+    background-color: #483E86;
+    color: white;
+    font-weight: 100;
+    padding: 1% 5%;
+    border-radius: 20px;
 }
             @media (min-width: 950px) {
 
@@ -13,6 +16,8 @@
                 #nav-contacts a {
                     color: white;
                     font-weight: 100;
+                    background-color: inherit;
+                    padding: 0;
                 }
             }
 
@@ -115,6 +120,13 @@
 }
 /*---------------firm-info, boss-info, contact-info-----------*/
 
+.firm-info {
+    border-radius: 20px 0 0 20px;
+}
+
+.contact-info {
+    border-radius: 0 20px 20px 0;
+}
             @media (min-width: 500px) {
                 
                 .firm-info h2 {
@@ -133,7 +145,7 @@
                 }
 
                 .firm-info {
-                    background-color: #483E86;
+                    background-color: #796EBC;
                 }
 
                 .boss-info {

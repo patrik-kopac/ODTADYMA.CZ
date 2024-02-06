@@ -240,7 +240,7 @@
     display: none; 
 
     position: absolute;
-    top: 7.95vh;
+    top: 7.99vh;
     right: calc(0vw - 2.5vw); 
 }   
 
@@ -263,12 +263,6 @@
                     width: 50vw; 
 
                     font-size: 1.3rem;
-                }
-            }
-
-            @media (min-width: 600px) {
-                .nav {
-                    top: 6.95vh;
                 }
             }
 
@@ -321,11 +315,6 @@
                 .nav li {
                     font-size: 0.9rem;
                     text-align: left;
-                    /* background-color: #377723; */
-
-                    /* display: inline-block; */
-
-                    /* border-radius: 20px; */
                     margin: 0;
                 }
             }
@@ -334,8 +323,6 @@
 
                 .nav li {
                     font-size: 1rem;
-
-                    /* padding: 0.5% 2%; */
                 }
             }
 
@@ -357,8 +344,6 @@
 
                 .nav li {
                     font-size: 1.6rem;
-
-                    /* padding: 0.5% 1.5%; */
                 }
             }
 
@@ -392,10 +377,10 @@
 /*-----------------------menu-icon--------------------*/
 .menu-icon {
     color: white;
-    font-size: 30px;
+    font-size: 6vh;
     text-align: right;
 
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
             @media (min-width: 950px) {
