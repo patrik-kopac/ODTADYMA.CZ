@@ -3,7 +3,7 @@
 
 /*--------------------------welcome-----------------------------*/
 #welcome {
-    background-image: url(/assets/shop/prodejna0.jpg);
+    background-image: url(/assets/shop/prodejna6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -49,7 +49,7 @@
 
 #welcome h2 {
     font-weight: 200;
-    color: #bbb8b8e3;
+    color: #ffffffe3;
     text-align: left;
     text-transform: none;
 
@@ -281,7 +281,7 @@
             @media (min-width: 950px) {
                             
                 .advantages {
-                    justify-content: space-evenly;
+                    row-gap: 4vh;
                 }
             }
 
@@ -290,7 +290,7 @@
     color: #ffffff;
     text-decoration: none;
 
-    height: 15vh;
+    height: 40vh;
     border-radius: 20px;
 
     background-size: cover;
@@ -305,13 +305,13 @@
             @media (min-width: 600px) {
                 .adv {
                     flex-basis: calc(100% / 2 - 2%);
-                    height: 25vh;
+                    height: 35vh;
                 }
             }
 
             @media (min-width: 950px) {
                 .adv {
-                    flex-basis: calc(100% / 3 - 4%);
+                    flex-basis: calc(100% / 3 - 2%);
                 }
             }
 
@@ -361,7 +361,7 @@
 .adv span {
     position: relative;
     left: 15%;
-    top: 40%;
+    top: 35%;
 
     display: inline-block;
     
@@ -386,7 +386,7 @@
                 }
 
                 .adv9-trvanlive {
-                    flex-basis: calc(100% / 3 - 4% );
+                    flex-basis: calc(100% / 3 - 2% );
                 }
             }
 
@@ -455,7 +455,7 @@
 
 .hp-news-all {
     width: 100%;
-    height: 30vh;
+    height: 50vh;
     border-radius: 20px;
 
     background-size: cover;
@@ -467,10 +467,18 @@
     position: relative;
 }
 
+            @media (min-width: 400px) {
+
+                .hp-news-all {
+                    height: 40vh;
+                }
+            }
+
             @media (min-width: 600px) {
 
                 .hp-news-all {
                     width: 90%;
+                    height: 30vh;
                 }
             }
 
