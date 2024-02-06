@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/darky.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/lightbox/lightbox.min.css">
 
     <link href="https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium" rel="stylesheet">
 
@@ -133,17 +134,15 @@
     </p>
 
 
-    <!------------------------zelenina-vizovice-gallery------------------>
+    <!------------------------darky-gallery------------------>
     <section class="gallery">
 
 
         <figure>
 
-            <div class="img-container">
-
-                <img class="img-gift1" src="/assets/products/darky/darky1.jpg" alt="Ukázka dárkového koše na míru pro jednoho z našich zákazníků.">
-
-            </div>
+            <a href="/assets/products/darky/darky1.jpg" data-lightbox="mygallery" data-title="Ukázka dárkového koše na míru pro jednoho z našich zákazníků.">
+                <img src="/assets/products/darky/darky1.jpg" alt="Ukázka dárkového koše na míru pro jednoho z našich zákazníků.">
+            </a>
 
             <figcaption>
                 Ukázka dárkového koše na míru pro jednoho z našich zákazníků.
@@ -153,11 +152,9 @@
 
         <figure>
             
-            <div class="img-container">
-
-                    <img class="img-gift2" src="/assets/products/darky/darky2.jpg" alt="Ukázka dárkového koše na míru pro jednoho z našich zákazníků.">
-
-            </div>
+            <a href="/assets/products/darky/darky2.jpg" data-lightbox="mygallery" data-title="Ukázka dárkového koše na míru pro jednoho z našich zákazníků.">
+                    <img src="/assets/products/darky/darky2.jpg" alt="Ukázka dárkového koše na míru pro jednoho z našich zákazníků.">
+            </a>
 
             <figcaption>
                 Odtadyma rovněž nabízí možnost odběru zboží v bedýnkách dle představ zákazníka.
@@ -167,11 +164,11 @@
 
         <figure>
             
-            <div class="img-container">
+            <a href="/assets/products/darky/darkovy-poukaz.jpg" data-lightbox="mygallery" data-title="Vzor dárkového poukazu Odtadyma. Hodnota je čistě ve vašich rukou, vytvoříme vám poukaz na míru.">
 
-                <img class="img-gift3" src="/assets/products/darky/darkovy-poukaz.jpg" alt="Vzor dárkového poukazu Odtadyma. Hodnota je čistě ve vašich rukou, vytvoříme vám poukaz na míru.">
+                <img src="/assets/products/darky/darkovy-poukaz.jpg" alt="Vzor dárkového poukazu Odtadyma. Hodnota je čistě ve vašich rukou, vytvoříme vám poukaz na míru.">
 
-            </div>
+            </a>
             
             <figcaption>
                 Vzor dárkového poukazu Odtadyma. Hodnota je libovolná, vytvoříme vám poukaz na míru.
@@ -181,26 +178,6 @@
 
     </section>
 
-    <!---------------------picture-gallery------------------->
-    <div class="picture-gallery">
-
-        <div class="picture-gallery-container">
-
-            <!-- <i class="fa-solid fa-arrow-left"></i>
-
-            <i class="fa-solid fa-arrow-right"></i> -->
-
-            <i class="fa-solid fa-xmark"></i>
-
-            <img src="/assets/shop/darcekovy-kos.jpg" alt="Fotografie dárkového koše na farmářské prodejně Odtadyma na Vsetíně." class="img-pick i-gift1">
-
-            <img src="/assets/shop/darcekovy-kos2.jpg" alt="Fotografie dárkového koše na farmářské prodejně Odtadyma na Vsetíně." class="img-pick i-gift2">
-            
-            <img src="/assets/shop/darkovy-poukaz-vzor.png" alt="Fotografie dárkového koše na farmářské prodejně Odtadyma na Vsetíně." class="img-pick i-gift3">
-
-        </div>
-
-    </div>
 
 
     <!-----------------kde-objednavat------------------>
@@ -327,5 +304,14 @@
 
 <!-------------------------------JAVASCRIPT------------------------>
 <script src="/js/script.js"></script>
+<script src="/js/lightbox/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+        lightbox.option({
+            'albumLabel': "%1 / %2",
+            'wrapAround': true
+          })
+    </script>
+
 </body>
 </html>
