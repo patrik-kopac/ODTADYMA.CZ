@@ -504,11 +504,11 @@
 }
 
 .hp-news1 {
-    background-image: url("/assets/news/stastny-novy-rok-2024.jpg");
+    background-image: url("/assets/news/mouka-horni-lidec.png");
 }
 
 .hp-news2 {
-    background-image: url("/assets/news/farmarsky-vanocni-trh-2023.jpg");
+    background-image: url("/assets/news/stastny-novy-rok-2024.jpg");
 }
 
             @media (min-width: 950px) {
@@ -519,11 +519,11 @@
             }
 
 .hp-news3 {
-    background-image: url("/assets/news/pozvanka-keramika-dohnalkovi.jpg");
+    background-image: url("/assets/news/farmarsky-vanocni-trh-2023.jpg");
 }
 
 .hp-news4 {
-    background-image: url("/assets/news/novinka-sufan-masla.jpg");
+    background-image: url("/assets/news/pozvanka-keramika-dohnalkovi.jpg");
 }
 
             @media (min-width: 950px) {

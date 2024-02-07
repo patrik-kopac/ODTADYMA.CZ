@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/sortiment/sort-final.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/lightbox/lightbox.min.css">
 
     <link href="https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium" rel="stylesheet">
 
@@ -195,58 +196,35 @@
 
         <div class="gallery-container">
 
-            <div class="img-container">
+            <a href="/assets/products/mlecne-chlazene/regaly.JPG" data-lightbox="mygallery" data-title="Ukázka mléčných a chlazených produktů na prodejně Odtadyma na Vsetíně.">
+                <img src="/assets/products/mlecne-chlazene/regaly.JPG" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
+            </a>
 
-                <a href="/assets/products/mlecne-chlazene/regaly.JPG">
-                    <img src="/assets/products/mlecne-chlazene/regaly.JPG" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
-                </a>
+            <a href="/assets/products/mlecne-chlazene/vyber.JPG" data-lightbox="mygallery" data-title="Ukázka mléčných a chlazených produktů na prodejně Odtadyma na Vsetíně.">
+                <img src="/assets/products/mlecne-chlazene/vyber.JPG" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
+            </a>
 
-            </div>
+            <a href="/assets/products/mlecne-chlazene/mlecne-lednice (1).jpg" data-lightbox="mygallery" data-title="Ukázka mléčných a chlazených produktů na prodejně Odtadyma na Vsetíně.">
+                <img src="/assets/products/mlecne-chlazene/mlecne-lednice (1).jpg" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
+            </a>
 
-            <div class="img-container">
+            <a href="/assets/products/mlecne-chlazene/mlecny-karamel.jpg" data-lightbox="mygallery" data-title="Ukázka mléčných a chlazených produktů na prodejně Odtadyma na Vsetíně.">
+                <img src="/assets/products/mlecne-chlazene/mlecny-karamel.jpg" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
+            </a>
 
-                <a href="/assets/products/mlecne-chlazene/vyber.JPG">
-                    <img src="/assets/products/mlecne-chlazene/vyber.JPG" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
-                </a>
+            <a href="/assets/products/mlecne-chlazene/kozi-syr.jpg" data-lightbox="mygallery" data-title="Ukázka mléčných a chlazených produktů na prodejně Odtadyma na Vsetíně.">
+                <img src="/assets/products/mlecne-chlazene/kozi-syr.jpg" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
+            </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/mlecne-chlazene/mlecne-lednice (1).jpg">
-                    <img src="/assets/products/mlecne-chlazene/mlecne-lednice (1).jpg" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
-                </a>
-
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/mlecne-chlazene/mlecny-karamel.jpg">
-                    <img src="/assets/products/mlecne-chlazene/mlecny-karamel.jpg" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
-                </a>
-
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/mlecne-chlazene/kozi-syr.jpg">
-                    <img src="/assets/products/mlecne-chlazene/kozi-syr.jpg" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
-                </a>
-
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/mlecne-chlazene/tvargle.jpg">
-                    <img src="/assets/products/mlecne-chlazene/tvargle.jpg" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
-                </a>
-
-            </div>
+            <a href="/assets/products/mlecne-chlazene/tvargle.jpg" data-lightbox="mygallery" data-title="Ukázka mléčných a chlazených produktů na prodejně Odtadyma na Vsetíně.">
+                <img src="/assets/products/mlecne-chlazene/tvargle.jpg" alt="Fotografie sortimentu mléčného a chlazeného farmářské prodejny Odtadyma na Vsetíně.">
+            </a>
 
         </div>
 
     </section>
 
+</main>
 
 
 
@@ -354,5 +332,14 @@
 
 <!-------------------------------JAVASCRIPT------------------------>
 <script src="/js/script.js"></script>
+<script src="/js/lightbox/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+        lightbox.option({
+            'albumLabel': "%1 / %2",
+            'wrapAround': true
+          })
+    </script>
+
 </body>
 </html>

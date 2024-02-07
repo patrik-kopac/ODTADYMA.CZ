@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/sortiment/sort-final.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/lightbox/lightbox.min.css">
 
     <link href="https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium" rel="stylesheet">
 
@@ -195,58 +196,35 @@
         
         <div class="gallery-container">
 
-            <div class="img-container">
-
-                <a href="/assets/products/zelovoc/zelovoc all.png">
-                    <img src="/assets/products/zelovoc/zelovoc all.png" alt="Fotografie sortimentu ovoce a zelenina farmářské prodejny Odtadyma na Vsetíně.">
+                <a href="/assets/products/zelovoc/zelovoc all.png" data-lightbox="mygallery" data-title="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
+                    <img src="/assets/products/zelovoc/zelovoc all.png" alt="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/zelovoc/milujeme-kretu.jpg">
-                    <img src="/assets/products/zelovoc/milujeme-kretu.jpg" alt="Fotografie sortimentu ovoce a zelenina farmářské prodejny Odtadyma na Vsetíně.">
+                <a href="/assets/products/zelovoc/vizovice-zelenina.jpg" data-lightbox="mygallery" data-title="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
+                    <img src="/assets/products/zelovoc/vizovice-zelenina.jpg" alt="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/zelovoc/vizovice-zelenina.jpg">
-                    <img src="/assets/products/zelovoc/vizovice-zelenina.jpg" alt="Fotografie sortimentu ovoce a zelenina farmářské prodejny Odtadyma na Vsetíně.">
+                <a href="/assets/products/zelovoc/milujeme-kretu.jpg" data-lightbox="mygallery" data-title="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
+                    <img src="/assets/products/zelovoc/milujeme-kretu.jpg" alt="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/zelovoc/cesnek.jpg">
-                    <img src="/assets/products/zelovoc/cesnek.jpg" alt="Fotografie sortimentu ovoce a zelenina farmářské prodejny Odtadyma na Vsetíně.">
+                <a href="/assets/products/zelovoc/cesnek.jpg" data-lightbox="mygallery" data-title="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
+                    <img src="/assets/products/zelovoc/cesnek.jpg" alt="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/zelovoc/rajcata.jpg">
-                    <img src="/assets/products/zelovoc/rajcata.jpg" alt="Fotografie sortimentu ovoce a zelenina farmářské prodejny Odtadyma na Vsetíně.">
+                <a href="/assets/products/zelovoc/rajcata.jpg" data-lightbox="mygallery" data-title="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
+                    <img src="/assets/products/zelovoc/rajcata.jpg" alt="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/zelovoc/cuketa.jpg">
-                    <img src="/assets/products/zelovoc/cuketa.jpg" alt="Fotografie sortimentu ovoce a zelenina farmářské prodejny Odtadyma na Vsetíně.">
+                <a href="/assets/products/zelovoc/cuketa.jpg" data-lightbox="mygallery" data-title="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
+                    <img src="/assets/products/zelovoc/cuketa.jpg" alt="Ukázka produktů z řad ovoce a zeleniny na prodejně Odtadyma na Vsetíně.">
                 </a>
-
-            </div>
 
         </div>
 
     </section>
 
+</main>
 
 
 
@@ -354,5 +332,14 @@
 
 <!-------------------------------JAVASCRIPT------------------------>
 <script src="/js/script.js"></script>
+<script src="/js/lightbox/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+        lightbox.option({
+            'albumLabel': "%1 / %2",
+            'wrapAround': true
+          })
+    </script>
+
 </body>
 </html>

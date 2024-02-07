@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/sortiment/sort-final.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/lightbox/lightbox.min.css">
 
     <link href="https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium" rel="stylesheet">
 
@@ -195,34 +196,23 @@
         
         <div class="gallery-container">
 
-            <div class="img-container">
-
-                <a href="/assets/products/mouky-peceni/category-mouka-peceni.jpg">
+                <a href="/assets/products/mouky-peceni/category-mouka-peceni.jpg" data-lightbox="mygallery" data-title="Ukázka mouky a sortimentu na pečení na prodejně Odtadyma na Vsetíně.">
                     <img src="/assets/products/mouky-peceni/category-mouka-peceni.jpg" alt="Fotografie sortimentu mouky a pečení farmářské prodejny Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/mouky-peceni/vyber.JPG">
+                <a href="/assets/products/mouky-peceni/vyber.JPG" data-lightbox="mygallery" data-title="Ukázka mouky a sortimentu na pečení na prodejně Odtadyma na Vsetíně.">
                     <img src="/assets/products/mouky-peceni/vyber.JPG" alt="Fotografie sortimentu mouky a pečení farmářské prodejny Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/mouky-peceni/regal.JPG">
+                <a href="/assets/products/mouky-peceni/regal.JPG" data-lightbox="mygallery" data-title="Ukázka mouky a sortimentu na pečení na prodejně Odtadyma na Vsetíně.">
                     <img src="/assets/products/mouky-peceni/regal.JPG" alt="Fotografie sortimentu mouky a pečení farmářské prodejny Odtadyma na Vsetíně.">
                 </a>
-
-            </div>
 
         </div>
 
     </section>
 
+</main>
 
 
 
@@ -330,5 +320,14 @@
 
 <!-------------------------------JAVASCRIPT------------------------>
 <script src="/js/script.js"></script>
+<script src="/js/lightbox/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+        lightbox.option({
+            'albumLabel': "%1 / %2",
+            'wrapAround': true
+          })
+    </script>
+
 </body>
 </html>

@@ -134,7 +134,7 @@
 
 
 
-/*--------------------------shop-gallery----------------------*/
+/*--------------------------gallery----------------------*/
 .gallery {
     width: 100%;
     margin: 0 auto;
@@ -150,10 +150,10 @@
 
 .gallery .product-h2 {
     color: #483E86;
-    margin: 5vh auto 0 auto;
-    padding-bottom: 2%;
+    margin: 5vh auto 2vh auto;
+    text-transform: none;
 
-    font-size: 2rem;
+    font-size: 1.5rem;
 
 }     
 
@@ -163,54 +163,53 @@
                 }
             }
 
-.gallery-container div a {
+.gallery-container a {
     width: 100%;
-    height: 30vh;
     margin: 1vh 0;
 
     display: inline-block;
 }
 
-            @media (min-width: 500px) {
-                .gallery-container div a {
+            /* @media (min-width: 500px) {
+                .gallery-container a {
                     height: 35vh;
                 }
-            }
+            } */
 
             @media (min-width: 750px) {
-                .gallery-container div {
+                .gallery-container a {
                     flex-basis: calc(100% / 2 - 1%);
                 }
             }
-
+/* 
             @media (min-width: 950px) {
-                .gallery-container div a {
+                .gallery-container a {
                     height: 40vh;
                 }
-            }
+            } */
             
             @media (min-width: 1400px) {
-                .gallery-container div a {
+                /* .gallery-container a {
                     height: 30vh;
-                }
+                } */
 
-                .gallery-container div {
+                .gallery-container a {
                     flex-basis: calc(100% / 3 - 1%);
                 }
             }
 
-            @media (min-width: 1700px) {
-                .gallery-container div a {
+            /* @media (min-width: 1700px) {
+                .gallery-container a {
                     height: 40vh;
                 }
-            }
+            } */
 
-.img-container a:hover {
+.gallery-container a:hover {
     transform: scale(1.02);
     transition: 0.7s;
 }
 
-.img-container a img {
+.gallery-container a img {
     width: 100%;
     height: 100%;
 
