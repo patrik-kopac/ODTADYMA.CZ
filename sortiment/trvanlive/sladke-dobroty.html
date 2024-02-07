@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/sortiment/sort-final.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/lightbox/lightbox.min.css">
 
     <link href="https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium" rel="stylesheet">
 
@@ -195,58 +196,35 @@
         
         <div class="gallery-container">
 
-            <div class="img-container">
-
-                <a href="/assets/products/sladke-dobroty/IMG_7270.JPG">
+                <a href="/assets/products/sladke-dobroty/IMG_7270.JPG" data-lightbox="mygallery" data-title="Ukázka sladkých dobrot na prodejně Odtadyma na Vsetíně.">
                     <img src="/assets/products/sladke-dobroty/IMG_7270.JPG" alt="Fotografie sladkých pochutin farmářské prodejny Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/sladke-dobroty/krev.jpg">
+                <a href="/assets/products/sladke-dobroty/krev.jpg" data-lightbox="mygallery" data-title="Ukázka sladkých dobrot na prodejně Odtadyma na Vsetíně.">
                     <img src="/assets/products/sladke-dobroty/krev.jpg" alt="Fotografie sladkých pochutin farmářské prodejny Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/sladke-dobroty/perníky.jpg">
+                <a href="/assets/products/sladke-dobroty/perníky.jpg" data-lightbox="mygallery" data-title="Ukázka sladkých dobrot na prodejně Odtadyma na Vsetíně.">
                     <img src="/assets/products/sladke-dobroty/perníky.jpg" alt="Fotografie sladkých pochutin farmářské prodejny Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/sladke-dobroty/vyber.JPG">
+                <a href="/assets/products/sladke-dobroty/vyber.JPG" data-lightbox="mygallery" data-title="Ukázka sladkých dobrot na prodejně Odtadyma na Vsetíně.">
                     <img src="/assets/products/sladke-dobroty/vyber.JPG" alt="Fotografie sladkých pochutin farmářské prodejny Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/sladke-dobroty/perníky2.jpg">
+                <a href="/assets/products/sladke-dobroty/perníky2.jpg" data-lightbox="mygallery" data-title="Ukázka sladkých dobrot na prodejně Odtadyma na Vsetíně.">
                     <img src="/assets/products/sladke-dobroty/perníky2.jpg" alt="Fotografie sladkých pochutin farmářské prodejny Odtadyma na Vsetíně.">
                 </a>
 
-            </div>
-
-            <div class="img-container">
-
-                <a href="/assets/products/sladke-dobroty/čokol.jpg">
+                <a href="/assets/products/sladke-dobroty/čokol.jpg" data-lightbox="mygallery" data-title="Ukázka sladkých dobrot na prodejně Odtadyma na Vsetíně.">
                     <img src="/assets/products/sladke-dobroty/čokol.jpg" alt="Fotografie sladkých pochutin farmářské prodejny Odtadyma na Vsetíně.">
                 </a>
-
-            </div>
 
         </div>
 
     </section>
 
+</main>
 
 
 
@@ -354,5 +332,14 @@
 
 <!-------------------------------JAVASCRIPT------------------------>
 <script src="/js/script.js"></script>
+<script src="/js/lightbox/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+        lightbox.option({
+            'albumLabel': "%1 / %2",
+            'wrapAround': true
+          })
+    </script>
+
 </body>
 </html>
