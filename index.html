@@ -1,17 +1,471 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cz">
 <head>
+    <!----------------- META ------------------>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <meta name="description" content="Web Odtadyma.cz je online prezentace farmářské a řemeslné prodejny na Vsetíně. Poznejte a ochutnejte pravou chuť regionálních potravin z Valašska.">
+
+    <title>Odtadyma.cz - Farmářská a řemeslná prodejna na Vsetíně</title>
+    
+    <!----------------- CONNECTIONS ------------------>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/hp.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
+    <link href="https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/8ba26cb1dc.js" crossorigin="anonymous"></script>
+
+
+    
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/icons/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/icons/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/icons/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/icons/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/icons/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/icons/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/icons/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/icons/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+
 </head>
 <body>
+
+    <!-------------------------------HEADER------------------------>
+    <header class="header">
+        
+        <div class="header-container">
+            
+            <!---------------------logo------------------->
+            <section class="logo">
+                <a class="full-logo" href="#welcome">
+                    <img src="/assets/logo/odtadyma_logotop-removebg-preview.png" alt="Velké logo obchodu Odtadyma.cz.">
+                </a>
+                <a class="text-logo" href="#welcome">
+                    <img src="/assets/logo/logo-len-nazov-removebg-preview.png" alt="Malé logo obchodu Odtadyma.cz.">
+                </a>
+                <!-- <i class="fa-regular fa-circle-xmark"></i> -->
+            </section>
+
+            <div class="nav-container">
+
+                <!---------------------header-contacts------------------->
+                <section class="header-contacts">
+                    <ul>
+                        <li>
+                            <a href="tel:+420733483563">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+420604785208">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:odtadyma@email.cz">
+                                <i class="fa-solid fa-at"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100064661770747">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/odtadyma_vs/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
     
-    <p>
-        Web pro Vás připravujeme... 
-    </p>
+                <!---------------------nav------------------->
+                <section class="nav">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#welcome">
+                                    Domů
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/kategorie/aktuality.html">
+                                    Aktuality
+                                </a>
+                            </li>
+                            <li id="nav-products">
+                                <a href="/kategorie/sortiment.html">
+                                    Sortiment
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/kategorie/darky-darkove-poukazy.html">
+                                    Dárky a poukazy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/kategorie/prodejna.html">
+                                    Prodejna
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/kategorie/vydejna.html">
+                                    Výdejna
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/kategorie/kontakty.html">
+                                    Kontakty
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
     
+                <!-----------------menu-icon------------------>
+                <div class="menu-icon">
+        
+                    <i class="fa-solid fa-bars"></i>
+        
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <!-------------------------------MAIN------------------------>
+    <main class="main">
+
+        <!---------------------welcome------------------->
+        <section id="welcome">
+            <h1>
+                POZNEJTE A OCHUTNEJTE PRAVOU CHUŤ REGIONÁLNÍCH POTRAVIN
+            </h1>
+            <h2>
+                Stránky Odtadyma.cz slouží jako prezentační web a jako doplněk k naši prodejně na Vsetíně
+            </h2>
+        </section>
+        
+        <!---------------------about-us------------------->
+        <section class="about-us">
+            
+            <h2>
+                O nás
+            </h2>
+
+            <div class="boss-intro">
+
+                <div class="boss-text">
+                    <em>
+
+                        <p>
+                                "Vážení zákazníci, potraviny máme vždy čerstvé, protože nepřicestovaly z opačné strany zeměkoule, ale jsou vyrobeny tady u nás, často jenom na hospodářství za kopcem nebo na druhé straně potoka.
+                        </p>
+    
+                        <p>
+                            Produkty, které u nás zakoupíte:
+                        </p>
+    
+                        <ul>
+                            <li>jsou produkty, lokálních sedláků, farmářů a pěstitelů,</li>
+                            <li>mají domácí původ,</li>
+                            <li>mají opravdovou a přirozenou chuť,</li>
+                            <li>jsou vyrobeny dle prověřených receptur a postupů,</li>
+                            <li>při výrobě nejsou používány konzervanty, náhražky, škodlivá "éčka",</li>
+                            <li>jsou potraviny, které necestují přes půl světa,</li>
+                            <li>jsou vyrobeny v souladu s přírodou,</li>
+                            <li>jsou potraviny čerstvé, lokální a sezónní.</li>
+                        </ul>
+                        
+                        <p>
+                            Nabízíme i možnost objednávek 24 hodin předem s vyzvednutím na prodejně. Kontaktovat nás můžete telefonicky (<a href="tel:+420733483563">zde</a>, případně <a href="tel:+420604785208">zde</a>) a nebo <a href="mail:odtadyma@email.cz">mailem</a>."
+                        </p>
+
+                    </em>
+
+                    <p class="boss-signature">
+                        <span>Kateřina Zukalová</span><br> majitelka Odtadyma.cz
+                    </p>
+
+                </div>
+
+                <figure class="boss-img">
+                    
+                    <div class="boss-img-container">
+                        <img src="/assets/katka.jpg" alt="Majitelka obchodu Odtadyma.cz Kateřina Zukalová.">
+                    </div>
+
+                    <figcaption><span>Kateřina Zukalová</span><br> majitelka Odtadyma.cz</figcaption>
+
+                </figure>
+
+            </div>
+
+            <div class="advantages">
+                <a class="adv1-pecivo adv" href="/sortiment/pecivo.html">
+                    <span>Poctivé pečivo z regionu</span> 
+                </a>
+
+                <a class="adv2-bezobal adv" href="/sortiment/bezobal.html">
+                    <span>Bezobalový obchod</span> 
+                </a>
+
+                <a class="adv3-napoje adv" href="/sortiment/napoje.html">
+                    <span>Lokální vína a piva</span>
+                </a>
+
+                <a class="adv4-zelovoc adv" href="/sortiment/ovoce-zelenina.html">
+                    <span>Ovoce a zelenina bez chemie</span>
+                </a>
+
+                <a class="adv5-darky adv" href="/kategorie/darky-darkove-poukazy.html">
+                    <span>Dárky a dárkové poukazy na míru</span>
+                </a>
+
+                <a class="adv6-farmary adv" href="/sortiment/maso-uzeniny.html">
+                    <span>Uzeniny a sýry od zdejších farmářů</span>
+                </a>
+
+                <a class="adv7-remesla adv" href="/sortiment/remeslne-vyrobky.html">
+                    <span>Lokální řemeslné produkty</span>
+                </a>
+
+                <a class="adv8-trhy adv" href="https://www.dkvsetin.cz/page/13178/farmarske-trhy-vsetin">
+                    <span>Potkáte nás i na farmářských trzích</span>
+                </a>
+
+                <a class="adv9-trvanlive adv" href="/sortiment/trvanlive.html">
+                    <span>Trvanlivé potraviny nejvyšší kvality</span>
+                </a>
+
+            </div>
+
+        </section>
+        
+        <!---------------------news------------------->
+        <section class="hp-news">
+
+            <h2>
+                Aktuality
+            </h2>
+
+            <div class="hp-news-container1">
+
+                <div class="hp-news-container2">
+    
+                    <div class="hp-news1 hp-news-all">
+                        
+                        <div class="hp-news-text">
+    
+                            <h3>
+                                Mouka z Horní Lidče opět v prodeji
+                            </h3>
+        
+                            <time datetime=”2024-02-02 09:00”>
+                                02. února 2024
+                            </time>
+    
+                        </div>
+    
+                        <a href="/aktuality/2024/mouka-horni-lidec.html">
+                            Celý článek
+                        </a>
+    
+                    </div>
+
+                    <div class="hp-news2 hp-news-all">
+                        
+                        <div class="hp-news-text">
+    
+                            <h3>
+                                Šťastný Nový rok 2024
+                            </h3>
+        
+                            <time datetime=”2024-01-01 14:00”>
+                                01. ledna 2024
+                            </time>
+    
+                        </div>
+    
+                        <a href="/aktuality/2024/stastny-novy-rok-2024.html">
+                            Celý článek
+                        </a>
+    
+                    </div>
+    
+                    <div class="hp-news3 hp-news-all">
+                        
+                        <div class="hp-news-text">
+    
+                            <h3>
+                                Již zítra vánoční farmářská premiéra na Vsetíně!
+                            </h3>
+        
+                            <time datetime=”2023-12-16 09:30”>
+                                16. prosince 2023
+                            </time>
+    
+                        </div>
+    
+    
+                        <a href="/aktuality/2023/farmarsky-vanocni-trh-2023.html">
+                            Celý článek
+                        </a>
+    
+                    </div>
+    
+                    <div class="hp-news4 hp-news-all">
+                        
+                        <div class="hp-news-text">
+    
+                            <h3>
+                                Akce Vánoce U Nás od Keramika Dohnálkovi
+                            </h3>
+        
+                            <time datetime=”2023-12-13 07:30”>
+                                13. prosince 2023
+                            </time>
+    
+                        </div>
+    
+                        <a href="/aktuality/2023/pozvanka-keramika-dohnalkovi.html">
+                            Celý článek
+                        </a>
+    
+                    </div>
+    
+                </div>
+    
+                <a class="news-archive" href="/kategorie/aktuality.html">
+                    Archiv
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-------------------------------FOOTER------------------------>
+    <footer>
+
+        <div class="footer-container">
+
+            <!---------------------footer-contacts------------------->
+            <section class="footer-info">
+
+                <div class="footer-contacts">
+                    
+                    <h3>
+                        Kontakty
+                    </h3>
+
+                    <ul>
+                        <li>
+                            <span>Tel 1:</span>
+                            <a href="tel:+420733483563">+420 733 483 563                            </a>
+                        </li>
+                        <li>
+                            <span>Tel  2:</span>
+                            <a href="tel:+420604785208">+420 604 785 208</a>
+                        </li>
+                        <li>
+                            <span>Mail:</span>
+                            <a href="mailto:odtadyma@email.cz"> odtadyma@email.cz</a>
+                        </li>
+                    </ul>
+
+                    <h3>
+                        Sociální sítě
+                    </h3>
+
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100064661770747">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/odtadyma_vs/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-shop">
+
+                    <h3>
+                        Prodejna
+                    </h3>
+
+                    <p class="footer-address">
+                        <span>Odtadyma, o.p.s.</span>
+                    </p>
+
+                    <p class="footer-address">
+                        Dům Kultury
+                    </p>
+
+                    <p class="footer-address">
+                        Svárov 1055
+                    </p>
+
+                    <p class="footer-address">
+                        755 01 Vsetín 1
+                    </p>
+
+                    <h3>
+                        Otevírací doba
+                    </h3>
+
+                    <p class="footer-opening-hours">
+                        <span>Po-Pá:</span> 09:00 - 12:30,<br> &nbsp; &nbsp; &nbsp; &nbsp; 13:00 - 17:00
+                    </p>
+                    <p class="footer-opening-hours">
+                        <span>&nbsp; Sob:</span> 08:00 - 12:00
+                    </p>
+                    <p class="footer-opening-hours">
+                        <span>&nbsp; &nbsp; Ned:</span> Zavřeno&nbsp; &nbsp; &nbsp; &nbsp;
+                    </p>
+                </div>
+
+            </section>
+    
+            <!---------------------footer-shop------------------->
+            <section class="footer-map">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2599.748086388808!2d17.98978227679958!3d49.33798796683581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471383ae9534a687%3A0xf3159e8a76c20f2b!2sOdtadyma.cz!5e0!3m2!1scs!2scz!4v1705675112495!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            </section>
+
+        </div>
+
+        <!---------------------signature------------------->
+        <section class="signature">
+            <p>Created by PATRIK KOPÁČ | &copy;2024</p>
+        </section>
+    
+    </footer>
+
+    <!-------------------------------JAVASCRIPT------------------------>
+    <script src="/js/script.js"></script>
 </body>
 </html>

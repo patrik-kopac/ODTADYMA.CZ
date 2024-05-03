@@ -156,6 +156,16 @@
                 }
             }
 
+
+.boss-text p:nth-of-type(2),
+.boss-text p:nth-of-type(3) {
+    margin-top: 3%; 
+}
+
+.boss-text ul li {
+    margin-left: 5%;
+}
+
 .boss-signature {
     padding-top: 5%;
     text-align: center;
@@ -196,6 +206,7 @@
 /*--------------boss-img--------------*/
 .boss-img {
     width: 30%;
+    margin: auto 0;
 
     display: none;
 }
