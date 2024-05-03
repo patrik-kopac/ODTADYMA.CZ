@@ -107,8 +107,15 @@
 
 .contacts a {
     text-decoration: none;
-    color: rgba(0, 0, 255, 0.781);
+    color: #1e24cd;
+    font-weight: 800;
 }
+
+            @media (min-width: 900px) {
+                .contacts a {
+                    color: #e9e9e9;
+                }
+            }
 
 .contacts-container a:hover,
 .contacts p:last-of-type a:hover {
@@ -166,6 +173,7 @@
 
 .strong {
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .underline {
