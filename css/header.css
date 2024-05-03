@@ -55,17 +55,22 @@
 
 
 /*------------------------PRE-HEADERS--------------------------*/
-.pre-header-1,
-.pre-header-2 {
-    background-color: #CE3219;
+.pre-header {
+    background-color: #ED420C;
 
     font-size: 0.8rem;
+    padding: 4px 5%;
 }
 
-.pre-header-1 p,
-.pre-header-2 p {
+            @media (min-width: 1200px) {
+                .pre-header {
+                    font-size: 0.9rem;
+                }
+            }
+
+.pre-header p {
     text-align: center;
-    color: #e9e9e9;
+    color: #fff6f6;
 }
 
 
@@ -74,8 +79,7 @@
 .header {
     background-color: #3e6f2fbd;
     
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
 
     position: fixed;
     left: 0;
@@ -95,7 +99,7 @@
 .header-container {
     width: 95vw;
 
-    margin: 2vh auto;
+    margin: 2vh 1vw;
 
     display: flex;
     justify-content: space-between;
