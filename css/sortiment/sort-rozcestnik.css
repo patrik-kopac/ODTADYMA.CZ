@@ -52,7 +52,32 @@
                 }
             }
 
-.products p {
+
+
+/*----------------------------products-intro---------------------*/
+.products-intro {
+    width: 90%;
+    margin: 0 auto;
+}
+
+            @media (min-width: 900px) {
+                .products-intro {
+                    font-size: 1.2rem;
+                }
+            }
+
+.products-intro p {
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
+
+.products-intro li {
+    margin-left: 5%;
+}
+
+
+
+/* .products p {
     padding: 0 3vw;
 }
 
@@ -68,7 +93,7 @@
     transition: 0.7s;
 
     text-decoration: underline;
-}
+} */
 
 
 /*-----------------------------gallery-----------------------*/
@@ -221,6 +246,6 @@
             }
 
 /*-------------------------little-text--------------------------*/
-.products p:last-of-type {
+.little-text {
     font-style: italic;
 }
