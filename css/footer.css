@@ -241,6 +241,17 @@ footer {
                 }
             }
 
+
+
+/*------------------------footer-info shared------------------*/
+.footer-info p,
+.footer-info span,
+.footer-info a {
+    color: #b8e3aa;
+}
+
+
+
 /*------------------------footer-map------------------*/
 .footer-map {
     display: none;
