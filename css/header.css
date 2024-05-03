@@ -54,6 +54,22 @@
 
 
 
+/*------------------------PRE-HEADERS--------------------------*/
+.pre-header-1,
+.pre-header-2 {
+    background-color: #CE3219;
+
+    font-size: 0.8rem;
+}
+
+.pre-header-1 p,
+.pre-header-2 p {
+    text-align: center;
+    color: #e9e9e9;
+}
+
+
+
 /* ---------------------------HEADER-----------------------------*/
 .header {
     background-color: #3e6f2fbd;
