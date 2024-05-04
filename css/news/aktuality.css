@@ -104,6 +104,10 @@
     background-color: rgba(0, 0, 0, 0.353);
 }
 
+.news12 {
+    background-image: url("/assets/news/mlecne-vyrobky.jpg");
+}
+
 .news11 {
     background-image: url("/assets/news/velikonoce.jpg");
 }
