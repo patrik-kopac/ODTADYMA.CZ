@@ -19,3 +19,37 @@ menuIcon.addEventListener(`click`, () => {
         menuList.style.display = "none"
     }
 })
+
+
+
+// ZRUŠENIE SCROLL OKNA S PAYMENTS INFOM
+
+// tvorba premenných 
+
+const payments = document.querySelector(`.payments`)
+
+const paymentsClose = document.querySelector(`.payments-close`)
+
+// preklik na krížik a zmiznutie celého scroll okna
+
+paymentsClose.addEventListener(`click`, () => {
+    paymentsClose.style.display = "none";
+    payments.style.display = "none";
+} )
+
+
+
+// ZRUŠENIE VRCHNÉHO OKNA S OBJEDNAVKOVYM INFOM
+
+// tvorba premenných 
+
+const payments = document.querySelector(`.payments`)
+
+const paymentsClose = document.querySelector(`.payments-close`)
+
+// preklik na krížik a zmiznutie celého scroll okna
+
+paymentsClose.addEventListener(`click`, () => {
+    paymentsClose.style.display = "none";
+    payments.style.display = "none";
+} )

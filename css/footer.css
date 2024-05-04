@@ -310,6 +310,8 @@ footer {
     line-height: 1rem;
     background-color: #377723;
     color: white;
+
+    display: block;
 }
 
 .payments:hover {
@@ -321,8 +323,10 @@ footer {
     position: relative;
 }
 
-.payments img {
+.payments-close {
     position: absolute;
     right: -15px;
     top: -18px;
+
+    display: block;
 }
