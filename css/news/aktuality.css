@@ -104,6 +104,10 @@
     background-color: rgba(0, 0, 0, 0.353);
 }
 
+.news10 {
+    background-image: url("/assets/news/milujeme-kretu.jpg");
+}
+
 .news9 {
     background-image: url("/assets/news/mouka-horni-lidec.png");
 }

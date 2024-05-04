@@ -193,3 +193,10 @@
     color: #377723;
 }
 
+.kreta-text li {
+    margin-left: 10%;
+}
+
+.kreta-text p:not(0) {
+    margin-top: 5%;
+}
