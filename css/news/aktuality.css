@@ -104,6 +104,10 @@
     background-color: rgba(0, 0, 0, 0.353);
 }
 
+.news11 {
+    background-image: url("/assets/news/velikonoce.jpg");
+}
+
 .news10 {
     background-image: url("/assets/news/milujeme-kretu.jpg");
 }
