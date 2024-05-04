@@ -25,13 +25,13 @@
 
 .main {
     width: 80vw;
-    margin: 20vh auto 5vh auto;
+    margin: 25vh auto 5vh auto;
 }
 
             @media (min-width: 1000px) {
 
                 .main {
-                    margin: 30vh auto 5vh auto;
+                    margin: 35vh auto 5vh auto;
                 }
             }
 

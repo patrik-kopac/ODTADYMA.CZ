@@ -25,7 +25,7 @@
 /*-----------------------------news-----------------------*/
 .news {
     width: 80vw;
-    margin: 20vh auto 5vh auto;
+    margin: 25vh auto 5vh auto;
 
     position: relative;
 }
@@ -33,7 +33,7 @@
             @media (min-width: 950px) {
 
                 .news {
-                    margin: 25vh auto 5vh auto;
+                    margin: 35vh auto 5vh auto;
                 }
             }
 
