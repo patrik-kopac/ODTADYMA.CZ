@@ -316,3 +316,13 @@ footer {
     background-color: #483E86;
     transition: 2s;;
 }
+
+.payments div {
+    position: relative;
+}
+
+.payments img {
+    position: absolute;
+    right: -15px;
+    top: -18px;
+}
