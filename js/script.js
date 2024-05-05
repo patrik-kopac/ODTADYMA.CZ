@@ -43,13 +43,13 @@ paymentsClose.addEventListener(`click`, () => {
 
 // tvorba premenných 
 
-const payments = document.querySelector(`.payments`)
+const preHeader = document.querySelector(`.pre-header`)
 
-const paymentsClose = document.querySelector(`.payments-close`)
+const preHeaderClose = document.querySelector(`.pre-header-close`)
 
 // preklik na krížik a zmiznutie celého scroll okna
 
-paymentsClose.addEventListener(`click`, () => {
-    paymentsClose.style.display = "none";
-    payments.style.display = "none";
+preHeaderClose.addEventListener(`click`, () => {
+    preHeaderClose.style.display = "none";
+    preHeader.style.display = "none";
 } )
