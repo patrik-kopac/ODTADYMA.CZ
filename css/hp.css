@@ -515,11 +515,11 @@
 }
 
 .hp-news1 {
-    background-image: url("/assets/news/mlecne-vyrobky.jpg");
+    background-image: url("/assets/news/kombucha.jpg");
 }
 
 .hp-news2 {
-    background-image: url("/assets/news/velikonoce.jpg");
+    background-image: url("/assets/news/mlecne-vyrobky.jpg");
 }
 
             @media (min-width: 950px) {
@@ -530,11 +530,11 @@
             }
 
 .hp-news3 {
-    background-image: url("/assets/news/milujeme-kretu.jpg");
+    background-image: url("/assets/news/velikonoce.jpg");
 }
 
 .hp-news4 {
-    background-image: url("/assets/news/mouka-horni-lidec.png");
+    background-image: url("/assets/news/milujeme-kretu.jpg");
 }
 
             @media (min-width: 950px) {
